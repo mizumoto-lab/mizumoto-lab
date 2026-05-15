@@ -6,8 +6,8 @@
   image: https://iiif.elifesciences.org/epp/110015%2Fv1%2Fcontent%2F677458v2_fig4.tif/full/max/0/default.jpg
   button:
     - type: preprint
-        text: bioRxiv
-        link: https://doi.org/10.1101/2025.09.20.677458
+      text: bioRxiv
+      link: https://doi.org/10.1101/2025.09.20.677458
 
 # 53.	Mizumoto N.*, Arimoto K., Kaliang C. H. & Kanao T. (2026) Independent evolution of a living bridge in the Old World army ant lineage. The Science of Nature, 113(2):28 doi: 10.1007/s00114-026-02085-4
 - id: 10.1007/s00114-026-02085-4
@@ -20,8 +20,8 @@
   image: https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683896/F1.large.jpg
   button:
     - type: preprint
-        text: bioRxiv
-        link: https://doi.org/10.1101/2025.10.22.683896
+      text: bioRxiv
+      link: https://doi.org/10.1101/2025.10.22.683896
 
 
 # 52. Satoh A.*, Planas-Sitja I., Cronin A. L. & Mizumoto N. (2026) Variation in soldier investment is linked to the evolution of termite soldier defense strategies. Evolutionary Ecology, 40(21) doi: 10.1007/s10682-026-10386-3; Featured Paper (April-May 2026)
@@ -30,8 +30,8 @@
   image: https://assets-eu.researchsquare.com/files/rs-7300390/v1/f4f2f954f9cd9dc984b40ea7.png?maxDims=1200x1200
   button:
     - type: preprint
-        text: researchsquare
-        link: https://doi.org/10.21203/rs.3.rs-7300390/v1
+      text: researchsquare
+      link: https://doi.org/10.21203/rs.3.rs-7300390/v1
 
 # 51. Mizumoto N.* (2026) Evaluating mate encounter and walking dispersal dynamics of termites using posture tracking and behavioral simulation. Journal of Pest Science, 99: 57 doi: 10.1007/s10340-026-02023-3
 - id: 10.1007/s10340-026-02023-3
@@ -39,8 +39,8 @@
   image: https://assets-eu.researchsquare.com/files/rs-6837416/v1/16584d78a2e2c448157be1ee.png?maxDims=1200x1200
   button:
     - type: preprint
-        text: researchsquare
-        link: https://doi.org/10.21203/rs.3.rs-6837416/v1
+      text: researchsquare
+      link: https://doi.org/10.21203/rs.3.rs-6837416/v1
 
 # 2025
 # 49. Mizumoto N.*, Yashiro T. & Hellemans S., (2025) Loss of pair formation predates the evolution of male-less society in termites. Evolution, accepted, DOI:10.1093/evolut/qpaf248
