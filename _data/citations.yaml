@@ -1,20 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: 10.1101/2025.10.22.683896
-  title: Diversification of pre-mating behaviors through temporal reordering of components
-  authors:
-  - Elijah Carroll
-  - Taisuke Kanao
-  - Nathan Lo
-  - Nobuaki Mizumoto
-  publisher: openRxiv
-  date: '2025-10-23'
-  link: https://doi.org/hbb2v4
-  type: preprint
-  image: https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683896/F1.large.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.1101/2025.09.20.677458
+- id: 10.7554/eLife.110015.1
   title: Evolution of sideways locomotion in crabs
   authors:
   - Junya Taniguchi
@@ -25,14 +11,50 @@
   - Nobuaki Mizumoto
   - Fumio Takeshita
   - Yuuki Kawabata
-  publisher: openRxiv
-  date: '2025-09-21'
-  link: https://doi.org/p7q5
-  type: preprint
-  image: https://www.biorxiv.org/content/biorxiv/early/2025/11/17/2025.09.20.677458/F4.large.jpg
+  publisher: eLife Sciences Publications, Ltd
+  date: '2026-04-21'
+  link: https://doi.org/hbx24s
+  type: paper
+  image: https://iiif.elifesciences.org/epp/110015%2Fv1%2Fcontent%2F677458v2_fig4.tif/full/max/0/default.jpg
+  button:
+  - type: preprint
+    text: bioRxiv
+    link: https://doi.org/10.1101/2025.09.20.677458
   plugin: sources.py
   file: sources.yaml
-- id: 10.21203/rs.3.rs-7300390/v1
+- id: 10.1007/s00114-026-02085-4
+  title: Independent evolution of a living bridge in the old world army ant lineage
+  authors:
+  - Nobuaki Mizumoto
+  - "K\xF4ichi Arimoto"
+  - Clement Het Kaliang
+  - Taisuke Kanao
+  publisher: The Science of Nature
+  date: '2026-03-03'
+  link: https://doi.org/hb4ck2
+  type: paper
+  image: https://x.com/i/status/2028870507852972496
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1098/rspb.2025.2738
+  title: Diversification of pre-mating behaviours through temporal reordering of components
+  authors:
+  - Elijah P. Carroll
+  - Taisuke Kanao
+  - Nathan Lo
+  - Nobuaki Mizumoto
+  publisher: 'Proceedings of the Royal Society B: Biological Sciences'
+  date: '2026-03-04'
+  link: https://doi.org/hb4ck3
+  type: paper
+  image: https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683896/F1.large.jpg
+  button:
+  - type: preprint
+    text: bioRxiv
+    link: https://doi.org/10.1101/2025.10.22.683896
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1007/s10682-026-10386-3
   title: Variation in soldier investment is linked to the evolution of termite soldier
     defense strategies
   authors:
@@ -40,23 +62,31 @@
   - "Isaac Planas-Sitj\xE0"
   - Adam L. Cronin
   - Nobuaki Mizumoto
-  publisher: Springer Science and Business Media LLC
-  date: '2025-08-25'
-  link: https://doi.org/hbb2v5
-  type: preprint
+  publisher: Evolutionary Ecology
+  date: '2026-02-16'
+  link: https://doi.org/hb4ck4
+  type: paper
   image: https://assets-eu.researchsquare.com/files/rs-7300390/v1/f4f2f954f9cd9dc984b40ea7.png?maxDims=1200x1200
+  button:
+  - type: preprint
+    text: researchsquare
+    link: https://doi.org/10.21203/rs.3.rs-7300390/v1
   plugin: sources.py
   file: sources.yaml
-- id: 10.21203/rs.3.rs-6837416/v1
+- id: 10.1007/s10340-026-02023-3
   title: Evaluating mate encounter and walking dispersal dynamics of termites using
     posture tracking and behavioral simulation
   authors:
   - Nobuaki Mizumoto
-  publisher: Springer Science and Business Media LLC
-  date: '2025-06-12'
-  link: https://doi.org/hbb2v6
-  type: preprint
+  publisher: Journal of Pest Science
+  date: '2026-03-01'
+  link: https://doi.org/hb4ck5
+  type: paper
   image: https://assets-eu.researchsquare.com/files/rs-6837416/v1/16584d78a2e2c448157be1ee.png?maxDims=1200x1200
+  button:
+  - type: preprint
+    text: researchsquare
+    link: https://doi.org/10.21203/rs.3.rs-6837416/v1
   plugin: sources.py
   file: sources.yaml
 - id: 10.1093/evolut/qpaf248
@@ -70,6 +100,19 @@
   link: https://doi.org/hbfq3x
   type: paper
   image: https://oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/evolut/evolut_title536242644.svg
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1186/s40462-025-00612-y
+  title: Nesting strategy reflects individual worker movement in termites
+  authors:
+  - Kensei Kikuchi
+  - Thomas Bourguignon
+  - Nobuaki Mizumoto
+  publisher: Movement Ecology
+  date: '2025-12-29'
+  link: https://doi.org/hb4ck7
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40462-025-00612-y/MediaObjects/40462_2025_612_Fig2_HTML.png?as=webp
   plugin: sources.py
   file: sources.yaml
 - id: 10.1007/s10164-025-00857-5
