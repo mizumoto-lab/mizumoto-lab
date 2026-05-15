@@ -1,32 +1,59 @@
 # Preprint under review
 
-# Carroll E., Kanao T., Lo N. & Mizumoto N. (2025) Diversification of pre-mating behaviors through temporal reordering of components. bioRxiv doi: 10.1101/2025.10.22.683896
-- id: 10.1101/2025.10.22.683896
-  type: preprint
+# 54.	Taniguchi J.#, Inoue T.#, Kohara K., Hung J-F., Hirai A., Mizumoto N., Takeshita F., Kawabata Y.* (2026) Evolution of sideways locomotion in crabs. eLife (reviewed preprint), doi: 10.7554/eLife.110015.1
+- id: 10.7554/eLife.110015.1
+  type: paper
+  image: https://iiif.elifesciences.org/epp/110015%2Fv1%2Fcontent%2F677458v2_fig4.tif/full/max/0/default.jpg
+  button:
+    - type: preprint
+        text: bioRxiv
+        link: https://doi.org/10.1101/2025.09.20.677458
+
+# 53.	Mizumoto N.*, Arimoto K., Kaliang C. H. & Kanao T. (2026) Independent evolution of a living bridge in the Old World army ant lineage. The Science of Nature, 113(2):28 doi: 10.1007/s00114-026-02085-4
+- id: 10.1007/s00114-026-02085-4
+  type: paper
+  image: https://x.com/i/status/2028870507852972496
+
+# 50. Carroll E., Kanao T., Lo N. & Mizumoto N. (2025) Diversification of pre-mating behaviors through temporal reordering of components. bioRxiv doi: 10.1101/2025.10.22.683896
+- id: 10.1098/rspb.2025.2738
+  type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683896/F1.large.jpg
+  button:
+    - type: preprint
+        text: bioRxiv
+        link: https://doi.org/10.1101/2025.10.22.683896
 
-# Taniguchi J., Inoue T., Kohara K., Hung J-F., Hirai A., Mizumoto N., Takeshita F., Kawabata Y. (2025) Evolution of sideways locomotion in crabs. bioRxiv doi: 10.1101/2025.09.20.677458
-- id: 10.1101/2025.09.20.677458
-  type: preprint
-  image: https://www.biorxiv.org/content/biorxiv/early/2025/11/17/2025.09.20.677458/F4.large.jpg
 
-# Satoh A., Planas-Sitja I., Cronin A. L., Mizumoto N. (2025) Variation in soldier investment is linked to the evolution of termite soldier defense strategies. ResearchSquare, doi:10.21203/rs.3.rs-7300390/v1 
-- id: 10.21203/rs.3.rs-7300390/v1
-  type: preprint
+# 52. Satoh A.*, Planas-Sitja I., Cronin A. L. & Mizumoto N. (2026) Variation in soldier investment is linked to the evolution of termite soldier defense strategies. Evolutionary Ecology, 40(21) doi: 10.1007/s10682-026-10386-3; Featured Paper (April-May 2026)
+- id: 10.1007/s10682-026-10386-3
+  type: paper
   image: https://assets-eu.researchsquare.com/files/rs-7300390/v1/f4f2f954f9cd9dc984b40ea7.png?maxDims=1200x1200
+  button:
+    - type: preprint
+        text: researchsquare
+        link: https://doi.org/10.21203/rs.3.rs-7300390/v1
 
-# Mizumoto N., (2025) Evaluating mate encounter and walking dispersal dynamics of termites using posture tracking and behavioral simulation. ResearchSquare doi:10.21203/rs.3.rs-6837416/v1 (under review at Journal of Pest Science)
-- id: 10.21203/rs.3.rs-6837416/v1
-  type: preprint
+# 51. Mizumoto N.* (2026) Evaluating mate encounter and walking dispersal dynamics of termites using posture tracking and behavioral simulation. Journal of Pest Science, 99: 57 doi: 10.1007/s10340-026-02023-3
+- id: 10.1007/s10340-026-02023-3
+  type: paper
   image: https://assets-eu.researchsquare.com/files/rs-6837416/v1/16584d78a2e2c448157be1ee.png?maxDims=1200x1200
+  button:
+    - type: preprint
+        text: researchsquare
+        link: https://doi.org/10.21203/rs.3.rs-6837416/v1
 
 # 2025
-# Mizumoto N.*, Yashiro T. & Hellemans S., (2025) Loss of pair formation predates the evolution of male-less society in termites. Evolution, accepted, DOI:10.1093/evolut/qpaf248
+# 49. Mizumoto N.*, Yashiro T. & Hellemans S., (2025) Loss of pair formation predates the evolution of male-less society in termites. Evolution, accepted, DOI:10.1093/evolut/qpaf248
 - id: 10.1093/evolut/qpaf248
   type: paper
   image: https://oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/evolut/evolut_title536242644.svg
 
-# Observation of tandem running behavior in mating pairs of Asian dampwood termite, Hodotermopsis sjostedti
+# 48.	Kikuchi K.*, Bourguignon T., & Mizumoto N.* (2025) Nesting strategy reflects individual worker movement in termites. Movement Ecology, 13, 88: 10.1186/s40462-025-00612-y
+- id: 10.1186/s40462-025-00612-y
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40462-025-00612-y/MediaObjects/40462_2025_612_Fig2_HTML.png?as=webp
+
+# 44. Observation of tandem running behavior in mating pairs of Asian dampwood termite, Hodotermopsis sjostedti
 - id: 10.1007/s10164-025-00857-5
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2025/05/08/2025.05.02.651862/F1.large.jpg?width=800&height=600&carousel=1
@@ -37,7 +64,7 @@
     - type: source
       link: https://github.com/nobuaki-mzmt/hodo-tandem
 
-# Mizumoto N. & Reiter S., (2025) Maintaining tandem movement cohesion through antennal movements in termites. bioRxiv doi:10.1101/2025.02.13.638054
+# 47. Mizumoto N. & Reiter S., (2025) Maintaining tandem movement cohesion through antennal movements in termites. bioRxiv doi:10.1101/2025.02.13.638054
 - id: 10.1098/rsif.2025.0487
   type: paper
   image: images/pub/m_rsif.2025.22.issue-232.cover.gif
@@ -48,12 +75,12 @@
     - type: source
       link: https://github.com/nobuaki-mzmt/Tandem_antenna_role
 
-# Mirza E., Jasso-Selles D., Mizumoto N. & Gile G.*, (2025) Intragenomic 18S sequence variability in the termite symbionts Kofoidia loriculata and Kofoidia repleta n. sp. (Parabasalia). Journal of Eukaryotic Microbiology, DOI: 10.1111/jeu.70039
+# 45. Mirza E., Jasso-Selles D., Mizumoto N. & Gile G.*, (2025) Intragenomic 18S sequence variability in the termite symbionts Kofoidia loriculata and Kofoidia repleta n. sp. (Parabasalia). Journal of Eukaryotic Microbiology, DOI: 10.1111/jeu.70039
 - id: 10.1111/jeu.70039
   type: paper
   image: https://onlinelibrary.wiley.com/cms/asset/e32f5657-1260-409e-9084-b15ce685ad6e/jeu70039-fig-0001-m.png
 
-# Lynch C. M.*, Starkey M., Montgomery D., Pavlic T. P. & Mizumoto N. (2025) More individuals or more groups? Incorporating sampling effort, statistical power, and model accuracy when designing experiments. Behavioral Ecology and Sociobiology, 79:106, DOI: 10.1007/s00265-025-03640-1
+# 46. Lynch C. M.*, Starkey M., Montgomery D., Pavlic T. P. & Mizumoto N. (2025) More individuals or more groups? Incorporating sampling effort, statistical power, and model accuracy when designing experiments. Behavioral Ecology and Sociobiology, 79:106, DOI: 10.1007/s00265-025-03640-1
 - id: 10.1007/s00265-025-03640-1
   type: paper
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00265-025-03640-1/MediaObjects/265_2025_3640_Fig5_HTML.png?as=webp
