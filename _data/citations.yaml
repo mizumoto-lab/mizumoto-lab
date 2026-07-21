@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: 10.32942/X28T0C
+  title: 'Beyond mistakes: same-sex partner acceptance and broad mating filters coexist
+    in termite pairing'
+  authors:
+  - Nobuaki Mizumoto
+  - Elijah Carroll
+  publisher: California Digital Library (CDL)
+  date: '2026-06-24'
+  link: https://doi.org/hcb8gd
+  type: preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.64898/2026.05.22.727143
+  title: Body-like coordination emerges in paired termite locomotion
+  authors:
+  - Nobuaki Mizumoto
+  - Sayomi Kamimoto
+  publisher: openRxiv
+  date: '2026-05-26'
+  link: https://doi.org/hcb8gf
+  type: preprint
+  plugin: sources.py
+  file: sources.yaml
 - id: 10.64898/2026.04.24.720620
   title: Colony phase structure favors permanent worker evolution in juvenile social
     systems
@@ -9,7 +32,38 @@
   date: '2026-04-24'
   link: https://doi.org/hb4g65
   type: preprint
-  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9LoOpBmUK9JMIq2y_kOBjc9Bj8lxDAmo_Q&s
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.32942/X21H4M
+  title: 'Four decades of inland invasion by Formosan subterranean termite in Alabama:
+    expansion associated with transportation infrastructure'
+  authors:
+  - Xing Ping Hu
+  - Nobuaki Mizumoto
+  publisher: California Digital Library (CDL)
+  date: '2026-06-17'
+  link: https://doi.org/hcb8gg
+  type: preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1002/oik.12492
+  title: Hidden role plasticity of the reproductive caste in a morphologically differentiated
+    termite society
+  authors:
+  - Nobuaki Mizumoto
+  - Clement Het Kaliang
+  - Taisuke Kanao
+  publisher: Oikos
+  date: '2026-06-26'
+  link: https://doi.org/hcb8gh
+  type: paper
+  image: images/pub/Mizumoto-etal-2026-OIKOS.JPG
+  button:
+  - type: preprint
+    text: EcoEvoRxiv
+    link: https://doi.org/10.32942/X2HT1X
+  - type: source
+    link: https://github.com/nobuaki-mzmt/working_nymph_longi
   plugin: sources.py
   file: sources.yaml
 - id: 10.7554/eLife.110015.1
