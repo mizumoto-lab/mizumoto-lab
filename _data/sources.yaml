@@ -1,7 +1,31 @@
 # Preprint under review
+# Mizumoto N. & Carroll E.P. (2026) Beyond mistakes: same-sex partner acceptance and broad mating filters coexist in termite pairing. EcoEvoRxiv: 10.32942/X28T0C (submitted to Philosophical Transactions of the Royal Society B)
+- id: 10.32942/X28T0C
+  type: preprint
+
+# 4.	Mizumoto N. & Kamimoto S. (2026) Body-like coordination emerges in paired termite locomotion. bioRxiv: 10.64898/2026.05.22.727143 (submitted to PNAS)
+- id: 10.64898/2026.05.22.727143
+  type: preprint
+
+# Mizumoto N. (2026) Colony phase structure favors permanent worker evolution in juvenile social systems. bioRxiv: 10.64898/2026.04.24.720620 (submitted to Proceedings B)
 - id: 10.64898/2026.04.24.720620
   type: preprint
-  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9LoOpBmUK9JMIq2y_kOBjc9Bj8lxDAmo_Q&s
+
+# Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. EcoEvoRxiv: 10.32942/X21H4M (under review in Urban Ecosystem)
+- id: 10.32942/X21H4M
+  type: preprint
+
+# Paper published
+# 55.	Mizumoto N.*, Kaliang C. H. & Kanao T. (2026) Hidden role plasticity of the reproductive caste in a morphologically differentiated termite society. OIKOS doi: 10.1002/oik.12492
+- id: 10.1002/oik.12492
+  type: paper
+  image: images/pub/Mizumoto-etal-2026-OIKOS.JPG
+  button:
+    - type: preprint
+      text: EcoEvoRxiv
+      link: https://doi.org/10.32942/X2HT1X
+    - type: source
+      link: https://github.com/nobuaki-mzmt/working_nymph_longi
 
 # 54.	Taniguchi J.#, Inoue T.#, Kohara K., Hung J-F., Hirai A., Mizumoto N., Takeshita F., Kawabata Y.* (2026) Evolution of sideways locomotion in crabs. eLife (reviewed preprint), doi: 10.7554/eLife.110015.1
 - id: 10.7554/eLife.110015.1
