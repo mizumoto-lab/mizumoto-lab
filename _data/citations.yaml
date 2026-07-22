@@ -10,6 +10,7 @@
   date: '2026-06-24'
   link: https://doi.org/hcb8gd
   type: preprint
+  image: images/pub/Mizumoto-Carroll-2026.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.64898/2026.05.22.727143
@@ -21,6 +22,7 @@
   date: '2026-05-26'
   link: https://doi.org/hcb8gf
   type: preprint
+  image: images/pub/Mizumoto-Kamimoto-2026.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.64898/2026.04.24.720620
@@ -32,6 +34,7 @@
   date: '2026-04-24'
   link: https://doi.org/hb4g65
   type: preprint
+  image: images/pub/Mizumoto-2026.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.32942/X21H4M
@@ -44,6 +47,7 @@
   date: '2026-06-17'
   link: https://doi.org/hcb8gg
   type: preprint
+  image: images/pub/Hu-Mizumoto-2026.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1002/oik.12492
@@ -99,7 +103,7 @@
   date: '2026-03-03'
   link: https://doi.org/hb4ck2
   type: paper
-  image: https://x.com/i/status/2028870507852972496
+  image: images/pub/Mizumoto-etal-2026-Ant.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1098/rspb.2025.2738
@@ -165,7 +169,7 @@
   date: '2025-11-28'
   link: https://doi.org/hbfq3x
   type: paper
-  image: https://oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/evolut/evolut_title536242644.svg
+  image: images/pub/Mizumoto-et-al-2025-Evolution.png
   plugin: sources.py
   file: sources.yaml
 - id: 10.1186/s40462-025-00612-y

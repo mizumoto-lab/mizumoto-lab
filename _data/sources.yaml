@@ -2,18 +2,22 @@
 # Mizumoto N. & Carroll E.P. (2026) Beyond mistakes: same-sex partner acceptance and broad mating filters coexist in termite pairing. EcoEvoRxiv: 10.32942/X28T0C (submitted to Philosophical Transactions of the Royal Society B)
 - id: 10.32942/X28T0C
   type: preprint
+  image: images/pub/Mizumoto-Carroll-2026.png
 
 # 4.	Mizumoto N. & Kamimoto S. (2026) Body-like coordination emerges in paired termite locomotion. bioRxiv: 10.64898/2026.05.22.727143 (submitted to PNAS)
 - id: 10.64898/2026.05.22.727143
   type: preprint
+  image: images/pub/Mizumoto-Kamimoto-2026.png
 
 # Mizumoto N. (2026) Colony phase structure favors permanent worker evolution in juvenile social systems. bioRxiv: 10.64898/2026.04.24.720620 (submitted to Proceedings B)
 - id: 10.64898/2026.04.24.720620
   type: preprint
+  image: images/pub/Mizumoto-2026.png
 
 # Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. EcoEvoRxiv: 10.32942/X21H4M (under review in Urban Ecosystem)
 - id: 10.32942/X21H4M
   type: preprint
+  image: images/pub/Hu-Mizumoto-2026.png
 
 # Paper published
 # 55.	Mizumoto N.*, Kaliang C. H. & Kanao T. (2026) Hidden role plasticity of the reproductive caste in a morphologically differentiated termite society. OIKOS doi: 10.1002/oik.12492
@@ -39,7 +43,7 @@
 # 53.	Mizumoto N.*, Arimoto K., Kaliang C. H. & Kanao T. (2026) Independent evolution of a living bridge in the Old World army ant lineage. The Science of Nature, 113(2):28 doi: 10.1007/s00114-026-02085-4
 - id: 10.1007/s00114-026-02085-4
   type: paper
-  image: https://x.com/i/status/2028870507852972496
+  image: images/pub/Mizumoto-etal-2026-Ant.png
 
 # 50. Carroll E., Kanao T., Lo N. & Mizumoto N. (2025) Diversification of pre-mating behaviors through temporal reordering of components. bioRxiv doi: 10.1101/2025.10.22.683896
 - id: 10.1098/rspb.2025.2738
@@ -49,7 +53,6 @@
     - type: preprint
       text: bioRxiv
       link: https://doi.org/10.1101/2025.10.22.683896
-
 
 # 52. Satoh A.*, Planas-Sitja I., Cronin A. L. & Mizumoto N. (2026) Variation in soldier investment is linked to the evolution of termite soldier defense strategies. Evolutionary Ecology, 40(21) doi: 10.1007/s10682-026-10386-3; Featured Paper (April-May 2026)
 - id: 10.1007/s10682-026-10386-3
@@ -73,7 +76,7 @@
 # 49. Mizumoto N.*, Yashiro T. & Hellemans S., (2025) Loss of pair formation predates the evolution of male-less society in termites. Evolution, accepted, DOI:10.1093/evolut/qpaf248
 - id: 10.1093/evolut/qpaf248
   type: paper
-  image: https://oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/evolut/evolut_title536242644.svg
+  image: images/pub/Mizumoto-et-al-2025-Evolution.png
 
 # 48.	Kikuchi K.*, Bourguignon T., & Mizumoto N.* (2025) Nesting strategy reflects individual worker movement in termites. Movement Ecology, 13, 88: 10.1186/s40462-025-00612-y
 - id: 10.1186/s40462-025-00612-y

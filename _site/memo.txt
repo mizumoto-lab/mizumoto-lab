@@ -2,14 +2,3 @@
 cd "F:\Dropbox\research\mizumoto-termite-lab"
 ./.docker/run.sh
 
-
-
-  I also recommend to use “YYMMDD” format when indicating date. This is useful when sorting.
-
-  When naming files (or folders), never use space “ “. I also recommend not using period “.”. You will see why after start coding a lot. Use underbar “_” when separating words.
-
-  Daily Journal Club
-  Counted as working time for undergradutaes. So encourage to join.
-
-  Lab Meeting
-  
