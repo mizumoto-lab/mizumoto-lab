@@ -1,8 +1,9 @@
 ---
-title: Research topics
+title: Tandem Running and Coordinated Motion
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %} Research topics - tandem runs
+
+# {% include icon.html icon="fa-solid fa-wrench" %} Tandem Running and Coordinated Motion
 
 Here are further explanations of research topics. Good examples of what type of research we do here.
 

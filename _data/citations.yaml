@@ -312,7 +312,7 @@
   date: '2024-10-29'
   link: https://doi.org/g8k28n
   type: paper
-  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jee/PAP/10.1093_jee_toae259/1/m_toae259_fig1.jpeg?Expires=1743267911&Signature=VitJgQViG9CSPZCAcatCIy8xr5ctcuVfhoBXVF1Jifns~MYwhN~V5mj1E99EnUXslYz0vw9-B38dK0I8bbJRqfUuSPms4-n2dS0lslA9H9JJHanU2l254uZ3fYni9Q0a8ARQVCx8Hly~SxibbjXj7XR0-ZbRFOwSi4PB1lGq5BCywhkMWYtQBQ4BxF8~8oJdL4slt1WjiarRqJDhz0M9Uuopu4tAveEW4wAKIg0JKrzGGv~Y2jncaa0R8dAy3fzg~FMB1JyZYOZWtw0ORILzlX6s9G3d-tCg83lAyB9pkKmYDz-bHirVenIDNTOWyIAfERNV45U12QwqzKxovfmkbg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: images/pub/Gazdick-etal-2025.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1086/732877
@@ -984,7 +984,7 @@
   date: '2018-06-01'
   link: https://doi.org/gdj9pg
   type: old_paper
-  image: https://www.journals.uchicago.edu/cms/10.1086/697238/asset/images/medium/fg6.gif
+  image: images/pub/Matsuura-etal-2017.gif
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41598-017-14626-z
@@ -1119,7 +1119,7 @@
   date: '2013-09-14'
   link: https://doi.org/f5c9nn
   type: old_paper
-  image: https://www.science.org/do/10.1126/article.23914/full/sn-termites_1-1644923258330.jpg
+  image: images/pub/Mizumoto-Matsuura-2013.jpg
   buttons:
   - type: journal
     text: ScienceShot

@@ -1,11 +1,11 @@
 ---
-title: Publication
+title: Publications
 nav:
-  order: 2
+  order: 3
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %} Publication
+# {% include icon.html icon="fa-solid fa-microscope" %} Publications
 
 Email to [nzm0095@auburn.edu](mailto:nzm0095@auburn.edu) if you need access to the full text.
 

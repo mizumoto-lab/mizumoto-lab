@@ -1,12 +1,24 @@
 ---
-title: Contact
+title: Join
+permalink: /join/
+redirect_from:
+  - /Contact/
 nav:
   order: 5
-  tooltip: Joining opportunity and contacts
+  tooltip: Opportunities to join the lab
 ---
-# {% include icon.html icon="fa-regular fa-door-open" %}Join our lab
-## Master & PhD students
-Graduate students at the Department of Entomology & Plant Pathology at Auburn University are fully funded by Research Assistantship. <br>
+
+# {% include icon.html icon="fa-regular fa-door-open" %} Join the Mizumoto Lab
+
+## Graduate students
+We are recruiting **two PhD students in Entomology for Fall 2027**:
+
+- **Termite collective behavior and nest building:** fieldwork, behavioral experiments, and video analysis
+- **Termite social and nest evolution:** comparative data, phylogenetics, modeling, and simulation
+
+Applicants may apply to either or both positions. See the [Fall 2027 PhD recruitment page](../recruitment) for full descriptions and application instructions.
+
+<!-- ###Graduate students at the Department of Entomology & Plant Pathology at Auburn University are fully funded by Research Assistantship. <br>
 At this time, Mizumoto-lab is not accepting students. However, if you are very interested in joining the lab in the future. We are happy to start discussing the opportunity beforehand.
 <!-- ### **[We are recruiting a graduate student](https://github.com/nobuaki-mzmt/mizumoto-lab/blob/main/job_ad_NM_2026.pdf)** --->
 
@@ -16,22 +28,32 @@ If you are interested in a graduate student position (master's or phd), please s
 
 
 ## Postdocs
-Please send me an email to discuss opportunities and funding possibilities.
 
-## Undergraduate students
-Are you interested in insect behavior, social insects, and/or computational behavioral analysis? <br>
-Please send a brief message describing your background and motivation. The below is the example opportunity: <br>
+An NSF-funded postdoctoral position is anticipated for 2027, with flexibility for a later start.
 
-**Research Assistant Positions: Termite Behavior and Evolution** <br>
-The Mizumoto Lab is recruiting two motivated undergraduate research assistants to explore the evolution of complex termite social behaviors. Our research compares termite behaviors across various scales—statewide, nationwide, and internationally—by integrating classic behavioral observations with advanced computational video analysis. Undergraduate assistants will work on one of two primary projects: <br>
-* Project 1: **Video Tracking of Termite Behavior** <br>
-Responsibilities include using deep-learning software (sleap.ai) to extract and analyze termite posture and movements from video footage. Key tasks involve reviewing and manually correcting tracking data, labeling termite body parts for machine learning, and possibly recording new termite behavior videos or analyzing movement data. No prior programming or coding skills are required. This project is ideal for students interested in animal behavior analysis. <br>
-* Project 2: **Termite Identification and Classification** <br>
-Assist in developing image-based software for identifying Alabama’s five similar termite species. Main tasks include processing termite samples, dissecting specimens, and photographing body parts. No prior experience with insects is necessary, and students may have the chance to study interspecies behavioral differences as the project progresses. This project suits students interested in insect diversity and identification. <br>
-Expected commitment is at least 10 hours per week during the semester, with opportunities for summer research and conference presentations. The starting pay rate is $12 per hour.
-Please send your CV (including major, academic year, and expected graduation date) and a short paragraph about your background and research interests to Nobuaki Mizumoto at nzm0095@auburn.edu.
-Join us in investigating the fascinating behaviors of termite societies and contributing to the understanding of social evolution! <br>
-See also [here](https://our.auburn.edu/external-opportunities/)
+The project investigates how collective nest-building behavior evolved in termites by integrating comparative behavioral experiments across 21 species, computational modeling of the relationship between individual behavior and colony-level structures, and phylogenetic comparative analysis.
+
+I am particularly interested in hearing from researchers with a strong background in computational modeling or quantitative behavioral analysis and an interest in social insects, collective behavior, or behavioral evolution. The postdoctoral researcher would take intellectual leadership in developing a computational framework that connects variation in individual building behavior with variation in emergent nest structures.
+
+Researchers whose background is a strong fit for this project are welcome to contact Dr. Mizumoto with a brief introduction and CV.
+
+## Undergraduate researchers
+
+Undergraduate students may participate through **research credit (ENTM 4980, 1–3 credit hours)** or **paid hourly work**.
+
+**Research-credit students** conduct a small, student-led project developed with Dr. Mizumoto based on their interests and available lab projects. Previous topics include environmental effects on termite tunneling and the evolution of body size in termites and cockroaches. Students are expected to work consistently, maintain organized records, analyze their results, and communicate their findings through a report or presentation. Students are also encouraged to present at the [Auburn Research Symposium](https://our.auburn.edu/this-is-research-student-symposium/) and submit their work to the [Auburn University Journal of Undergraduate Scholarship](https://our.auburn.edu/aujus/).
+
+**Paid undergraduate positions** are compensated at **$12 per hour**, subject to available funding and project needs. Students typically assist with graduate student-led or faculty-led projects. Tasks may include termite colony maintenance, behavioral tracking correction, labeling termite body parts for machine-learning analysis, specimen processing, and database entry.
+
+To inquire, email Dr. Nobuaki Mizumoto at [nzm0095@auburn.edu](mailto:nzm0095@auburn.edu) with:
+
+- CV
+- Major
+- Academic year and expected graduation date
+- Brief description of research interests
+- Interest in ENTM 4980, paid work, or either option
+
+
 {% include section.html %}
 
 
@@ -46,5 +68,5 @@ See also [here](https://our.auburn.edu/external-opportunities/)
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps/place/Funchess+Hall,+Auburn,+AL+36849/@32.600014,-85.4849011,17z/data=!3m1!4b1!4m6!3m5!1s0x888cf303a3838689:0xf3897ce9a7bc91f1!8m2!3d32.6000095!4d-85.4823262!16s%2Fg%2F1tfrn35d?entry=ttu"
+  link="https://maps.app.goo.gl/9r94zuCpvahWmKRBA"
 %}

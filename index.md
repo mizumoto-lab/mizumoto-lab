@@ -3,6 +3,8 @@
 ---
 
 <!-- Announcement -->
+{% include alert.html type="info" content="**We are recruiting two PhD students for Fall 2027.** One position focuses on field and experimental research on termite collective nest building; the other focuses on comparative data analysis and termite social evolution. [View both positions](recruitment/)." %}
+
 # Termite x Behavior x Evolution
 Mizumoto Lab is interested in the evolution of termite collective behavior. What are the rules for behavioral coordination? How did they originate in the history of life? We answer these questions by integrating field work, behavioral observations, computational tracking, and phylogenetic comparative analysis. See our [Publications](publication) and [Research](research) for details.
 
@@ -39,3 +41,12 @@ There are > 3,000 species of termites in the world, showing a great diversity of
 %}
 
 
+{% include section.html %}
+
+## Latest news
+
+{% for post in site.posts limit:3 %}
+  {% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+
+[View all news]({{ "/news/" | relative_url }})

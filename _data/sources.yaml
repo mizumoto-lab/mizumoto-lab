@@ -134,7 +134,7 @@
 # 41. Gazdick K.*, Lee S.B., Mizumoto N., Chouvenc T. & Su N. Y. (2024) Subterranean termites (Coptotermes formosanus) colonies can readily intercept bait stations while following label recommendations through their foraging abilities. Journal of Economic Entomology, DOI: 10.1093/jee/toae259 (accepted)
 - id: doi:10.1093/jee/toae259
   type: paper
-  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jee/PAP/10.1093_jee_toae259/1/m_toae259_fig1.jpeg?Expires=1743267911&Signature=VitJgQViG9CSPZCAcatCIy8xr5ctcuVfhoBXVF1Jifns~MYwhN~V5mj1E99EnUXslYz0vw9-B38dK0I8bbJRqfUuSPms4-n2dS0lslA9H9JJHanU2l254uZ3fYni9Q0a8ARQVCx8Hly~SxibbjXj7XR0-ZbRFOwSi4PB1lGq5BCywhkMWYtQBQ4BxF8~8oJdL4slt1WjiarRqJDhz0M9Uuopu4tAveEW4wAKIg0JKrzGGv~Y2jncaa0R8dAy3fzg~FMB1JyZYOZWtw0ORILzlX6s9G3d-tCg83lAyB9pkKmYDz-bHirVenIDNTOWyIAfERNV45U12QwqzKxovfmkbg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: images/pub/Gazdick-etal-2025.png
 
 # 40. Mizumoto N.*, Nagaya N. & Fujisawa R. (2024) Wasted efforts impair random search efficiency and reduce choosiness in mate-pairing termites. bioRxiv, DOI: 10.1101/2024.02.01.578198 (submit to Ecology) 
 - id: doi:10.1086/732877
@@ -458,7 +458,7 @@
 # 8.  Matsuura K.*#, Mizumoto N.#, Kobayashi K., Nozaki T., Fujita T., Yashiro T., Fuchikawa T., Mitaka Y. & Vargo E. L. (2018) A genomic imprinting model of termite caste determination: Not genetic but epigenetic inheritance influences offspring caste fate. The American Naturalists 191(6): 677-690 DOI:10.1086/697238
 - id: doi:10.1086/697238
   type: old_paper
-  image: https://www.journals.uchicago.edu/cms/10.1086/697238/asset/images/medium/fg6.gif
+  image: images/pub/Matsuura-etal-2017.gif
 
 # 2017
 # 7.  Hasegawa E.*#, Mizumoto N.#, Kobayashi K., Dobata S., Yoshimura J. Watanabe S., Murakami Y. & Matsuura K. (2017) Nature of collective decision-making by simple yes/no decision units. Scientific Reports 7:14436 DOI:10.1038/s41598-017-14626-z 
@@ -527,7 +527,7 @@
 # 1.  Mizumoto N. & Matsuura K.* (2013) Colony-specific architecture of shelter tubes by termites. Insectes Sociaux 60: 525-530. DOI:10.1007/s00040-013-0319-1 
 - id: doi:10.1007/s00040-013-0319-1 
   type: old_paper
-  image: https://www.science.org/do/10.1126/article.23914/full/sn-termites_1-1644923258330.jpg
+  image: images/pub/Mizumoto-Matsuura-2013.jpg
   buttons:
     - type: journal
       text: ScienceShot

@@ -2,20 +2,28 @@
 name: Elijah Carroll
 image: images/members/EC_HeadshotPhoto_square.jpg
 role: phd
+status: current
+description: Ph.D. Student 2024-
 aliases:
+  - Elijah Carroll
+  - Elijah P. Carroll
   - E. Carroll
+  - E. P. Carroll
   - E.P. Carroll
-  - Eli Carroll
 links:
   email: epc0015@auburn.edu
   reseachgate: Elijah_Carroll
   orcid: 0009-0001-8981-5024
 ---
 
-Elijah Carroll is a research assistant in Dr. Mizumotos lab. He is mainly interested in the application of behavior to manage invasive and outbreak termite species. He is planning on pursuing his Ph.D. in Fall of 2024 under the mentorship of Dr. Mizumoto.
+Elijah Carroll is a Ph.D. student in the Mizumoto Lab studying the evolution and ecology of termite mating behavior. His research examines pair formation, nest-site selection, and interactions between pest and non-pest drywood termite species. By comparing species with different life histories, he seeks to connect fundamental questions about termite social evolution with applied questions in pest management.
 
+Elijah combines field collection, individual marking, behavioral experiments, automated video tracking, and quantitative analysis. His research has produced a first-author paper in Proceedings of the Royal Society B and has been recognized with a departmental presentation award and the William L. and Ruth D. Nutting Termite Research Grant from the International Union for the Study of Social Insects.
+
+{% include section.html %}
 
 ### Education:
+
 - 2023 MS, Entomology, Auburn University
 - 2021 BS, Organismal biology, Auburn University
 

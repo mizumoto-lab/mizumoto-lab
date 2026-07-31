@@ -8,3 +8,4 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 ## Note
 
 Publication => edit: /_data/sources.yaml
+Member => edit: [text](_members)
