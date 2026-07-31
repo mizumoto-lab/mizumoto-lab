@@ -1,5 +1,6 @@
 ---
 name: Solana Hosburgh
+image: images/members/Sol.jpg
 role: undergrad
 status: current
 description: Undergraduate Researcher 2025-
