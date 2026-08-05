@@ -15,7 +15,7 @@ links:
   google-scholar: bALkDW4AAAAJ
   reseachgate: Nobuaki-Mizumoto
   #orcid: 0000-0002-6731-8684
-  cv: files/CV_NobuakiMizumoto_260723.pdf
+  cv: files/CV_NobuakiMizumoto.pdf
 ---
 
 Nobuaki Mizumoto (Nobu; 水元 惟暁) is an Assistant Professor in Insect Ecology in the Department of Entomology & Plant Pathology at Auburn University. He studies how complex collective behavior and social organization arise and evolve in termites. His research focuses on mate pairing and coordinated motion, collective nest construction, termite social evolution, and termite biodiversity.
