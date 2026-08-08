@@ -14,6 +14,7 @@ We intentionally restricted our research (mainly) to termites for inspiration. D
 {%
   include feature.html
   image = "images/Shelter-tubes.jpg"
+  alt = "Termite shelter tubes constructed across a surface"
   title = "Termites"
   text  = content
   flip  = true
@@ -25,6 +26,7 @@ Videos of insect behaviors have much information. We especially try to understan
 {%
   include feature.html
   image = "images/pub/Mizumoto-etal-2020-JAE.gif"
+  alt = "Animated visualization of termite movement used for computational behavioral analysis"
   title = "Computational behavioral analysis"
   text  = content
 %}
@@ -35,6 +37,7 @@ There are > 3,000 species of termites in the world, showing a great diversity of
 {%
   include feature.html
   image = "images/pub/Mizumoto-etal-2022-PNAS.jpg"
+  alt = "Research figure illustrating the evolution of termite tandem-running behavior across species"
   title = "Phylogeny and Evolution"
   text  = content
   flip  = true
