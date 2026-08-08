@@ -11,7 +11,7 @@ Here are further explanations of research topics. Good examples of what type of 
 {% include section.html %}
 ## Evolution of leader role in termite tandem runs
 {% capture content %}
-  {% include figure.html image="images/pub/Mizumoto-etal-2022-PNAS.jpg" width="350px" %}
+  {% include figure.html image="images/pub/Mizumoto-etal-2022-PNAS.jpg" alt="Comparative figure showing evolutionary patterns in termite tandem-running leader and follower roles" width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -27,7 +27,7 @@ Termites show same-sex tandem running behavior for both female-female pair and m
 {% include section.html %}
 ## Functional diversity of ant tandem runs
 {% capture content %}
-  {% include figure.html image="https://www.cell.com/cms/attachment/7c371333-2e51-4206-99f7-cf419502554c/fx1.jpg" width="450px" %}
+  {% include figure.html image="https://www.cell.com/cms/attachment/7c371333-2e51-4206-99f7-cf419502554c/fx1.jpg" alt="Research figure comparing tandem-running communication and recruitment in different ant species" width="450px" %}
 {% endcapture %}
 {%
   include float.html
@@ -43,7 +43,7 @@ Ants also show tandem running. Different from termites, they use this behavior t
 {% include section.html %}
 ## Communication during termite tandem runs
 {% capture content %}
-  {% include figure.html image="images/per_nit_tandem.jpeg" width="350px" %}
+  {% include figure.html image="images/per_nit_tandem.jpeg" alt="Termite tandem-running pairs used to compare movement coordination between species" width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -63,7 +63,7 @@ We clear evidence that mating pairs of two termite species do not rely on visual
 {% include section.html %}
 ## Search strategies of mating termites
 {% capture content %}
-  {% include figure.html image="images/topic/Mizumoto-Dobata-2019-SciAdv.png" width="350px" %}
+  {% include figure.html image="images/topic/Mizumoto-Dobata-2019-SciAdv.png" alt="Movement trajectories comparing termite mate-search behavior before pairing and after accidental separation" width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -74,7 +74,7 @@ How should females and males move to search for partners whose exact location is
 [Mizumoto and Dobata 2019 Sci Adv](https://doi.org/10.1126/sciadv.aau6108)
 
 {% capture content %}
-  {% include figure.html image="images/topic/Mizumoto-etal-2020-JAE.png" width="300px" %}
+  {% include figure.html image="images/topic/Mizumoto-etal-2020-JAE.png" alt="Analysis of male termite movement speed across different local mate densities" width="300px" %}
 {% endcapture %}
 {%
   include float.html
@@ -90,7 +90,7 @@ Furthermore,  we show that males of _Coptotermes gestroi_, who experience a vari
 {% include section.html %}
 ## Optimal movement to search for mating partners
 {% capture content %}
-  {% include figure.html image="images/pub/Mizumoto-etal-2017_JRSI.gif" caption="Simulations" width="200px" %}
+  {% include figure.html image="images/pub/Mizumoto-etal-2017_JRSI.gif" alt="Animated simulation of male and female movement strategies for finding mating partners" caption="Simulations" width="200px" %}
 {% endcapture %}
 {%
   include float.html
@@ -106,7 +106,7 @@ Furthermore,  we show that males of _Coptotermes gestroi_, who experience a vari
 {% include section.html %}
 ## Circadian rhythm in mate search of termites
 {% capture content %}
-  {% include figure.html image="images/topic/3_rhythm.png" caption="Termite activity under LD and darkness." width="350px" %}
+  {% include figure.html image="images/topic/3_rhythm.png" alt="Termite mate-search activity over time under light-dark cycles and constant darkness" caption="Termite activity under LD and darkness." width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -121,7 +121,7 @@ Furthermore,  we show that males of _Coptotermes gestroi_, who experience a vari
 {% include section.html %}
 ## Adaptive values of same-sex pairing by termite males
 {% capture content %}
-  {% include figure.html image="images/pub/Mizumoto-etal-2016-AB.png" caption="A pair of males survive more than 2 years together." width="250px" %}
+  {% include figure.html image="images/pub/Mizumoto-etal-2016-AB.png" alt="Two male termites living together in a same-sex colony-founding pair" caption="A pair of males survive more than 2 years together." width="250px" %}
 {% endcapture %}
 {%
   include float.html
