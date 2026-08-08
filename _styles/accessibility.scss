@@ -1,0 +1,28 @@
+---
+---
+
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  padding: 10px 14px;
+  background: var(--background);
+  color: var(--text);
+  border: 2px solid var(--text);
+  border-radius: var(--rounded);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+#main-content:focus {
+  outline: none;
+}
