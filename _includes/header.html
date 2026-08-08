@@ -22,11 +22,11 @@
     <a href="{{ "/" | relative_url }}" class="home">
       <div class="logo-title-container">
       {% if logo %}
-        <span class="logo">
+        <span class="logo" aria-hidden="true">
           {% if svg %}
             {{ svg | file_read }}
           {% else %}
-            <img src="{{ logo | relative_url }}" alt="logo">
+            <img src="{{ logo | relative_url }}" alt="">
           {% endif %}
         </span>
       {% endif %}
@@ -45,7 +45,7 @@
     </a>
     <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
 
-    <nav class="nav_row">
+    <nav class="nav_row" aria-label="Primary navigation">
       {% assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" %}
       {% for page in pages %}
         {% if page.nav %}
