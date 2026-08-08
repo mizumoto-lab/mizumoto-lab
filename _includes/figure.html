@@ -1,10 +1,12 @@
+{% assign alt = include.alt | default: include.caption | default: "" %}
+
 <figure class="figure">
   <a
     {% if include.link %}
       href="{{ include.link | relative_url }}"
+      aria-label="{{ include.link_label | default: include.caption | default: alt | escape }}"
     {% endif %}
     class="figure-image"
-    aria-label="{{ include.caption | default: "figure link" }}"
   >
     <img
       src="{{ include.image | relative_url }}"
@@ -12,7 +14,7 @@
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};
       "
-      alt="{{ include.caption | default: "figure image" }}"
+      alt="{{ alt | escape }}"
       loading="lazy"
       {% include fallback.html %}
     >
