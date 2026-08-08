@@ -11,7 +11,7 @@ Here are further explanations of research topics. Good examples of what type of 
 {% include section.html %}
 ## Complex relationship between building behavior and outcome
 {% capture content %}
-  {% include figure.html image="images/topic/Mizumoto-etal-2020-AmNat.png" width="450px" %}
+  {% include figure.html image="images/topic/Mizumoto-etal-2020-AmNat.png" alt="Comparison of termite excavation behaviors and the tunnel structures produced by different species" width="450px" %}
 {% endcapture %}
 {%
   include float.html
@@ -28,7 +28,7 @@ Here are further explanations of research topics. Good examples of what type of 
 {% include section.html %}
 ## Colony variation of shelter-tube construction by termites
 {% capture content %}
-  {% include figure.html image="images/topic/1_emp.png" caption="Colony specificity of structure patterns." width="250px" %}
+  {% include figure.html image="images/topic/1_emp.png" alt="Examples of shelter-tube structures showing differences among termite colonies" caption="Colony specificity of structure patterns." width="250px" %}
 {% endcapture %}
 {%
   include float.html
@@ -38,7 +38,7 @@ Here are further explanations of research topics. Good examples of what type of 
 Social insects build sophisticated and complex structures such as large nests and underground galleries. Studies have shown that this building rule can produce various structures by changing the environmental conditions or group size. Then, will social insects construct the same structures under the same environmental conditions and with the same group size? In other words, is there the personality of nesting structures? Here, we found that termite termites show distinct colony-specificity. When we divided a colony into multiple groups of individuals, groups drawn from the same colony built similar patterns, whereas groups from different colonies exhibited different patterns ([Mizumoto and Matsuura 2013 Insect Soc](https://doi.org/10.1007/s00040-013-0319-1)).
 
 {% capture content %}
-  {% include figure.html image="images/topic/1_behav.jpg" caption="Shelter tube construction by termites." width="250px" %}
+  {% include figure.html image="images/topic/1_behav.jpg" alt="Termite workers adding material during shelter-tube construction" caption="Shelter tube construction by termites." width="250px" %}
 {% endcapture %}
 {%
   include float.html
@@ -48,7 +48,7 @@ Social insects build sophisticated and complex structures such as large nests an
 As the colony differences of structures are created under the same environmental conditions and with the same number of individuals, we can expect that termite workers differ among colonies in their responses. To explore the factors that affect construction, we developed a lattice model mimicking termite behaviors ([Mizumoto et al. 2015 RSOS](https://doi.org/10.1098/rsos.150360)).
 
 {% capture content %}
-  {% include figure.html image="images/topic/1_sim.png" caption="The scheme of simualations" width="300px" %}
+  {% include figure.html image="images/topic/1_sim.png" alt="Diagram of the lattice simulation used to model termite shelter-tube construction" caption="The scheme of simualations" width="300px" %}
 {% endcapture %}
 {%
   include float.html
