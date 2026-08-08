@@ -16,7 +16,7 @@ Our research is organized into three closely connected fundamental programs and 
 ## Evolution and mechanisms of mate pairing and coordinated motion
 
 {% capture content %}
-  {% include figure.html image="images/Rsp_tandem.gif" caption="Coordinated movement of tandem running pair" width="380px" %}
+  {% include figure.html image="images/Rsp_tandem.gif" alt="Animated view of a termite mating pair moving together in tandem" caption="Coordinated movement of tandem running pair" width="380px" %}
 {% endcapture %}
 {%
   include float.html
@@ -41,7 +41,7 @@ Current work includes the diversity of tandem-running behavior across termite sp
 ## Evolutionary origin of collective nest building in termites
 
 {% capture content %}
-  {% include figure.html image="images/output_right_panel.gif" caption="Tunneling structures produced by different termite species" width="450px" %}
+  {% include figure.html image="images/output_right_panel.gif" alt="Animated comparison of tunnel structures excavated by different termite species" caption="Tunneling structures produced by different termite species" width="450px" %}
 {% endcapture %}
 {%
   include float.html
@@ -66,7 +66,7 @@ A major current effort is an [NSF-funded project](https://www.nsf.gov/awardsearc
 ## Evolution and diversity of termite sociality
 
 {% capture content %}
-  {% include figure.html image="images/nesting_strategy.png" caption="Diversity of termite nesting strategies" width="400px" %}
+  {% include figure.html image="images/nesting_strategy.png" alt="Diagram comparing major termite nesting and foraging strategies" caption="Diversity of termite nesting strategies" width="400px" %}
 {% endcapture %}
 {%
   include float.html
@@ -91,7 +91,7 @@ Current research examines worker evolution, transitions in nesting and foraging,
 ## Termite biodiversity in Alabama
 
 {% capture content %}
-  {% include figure.html image="images/distribution.png" caption="Distribution of Formosan Subterrenean Termites\n in Alabama. [Link](https://ecoevorxiv.org/repository/view/13522/)" width="250px" %}
+  {% include figure.html image="images/distribution.png" alt="Map showing records of Formosan subterranean termites across Alabama" caption="Distribution of Formosan Subterrenean Termites\n in Alabama. [Link](https://ecoevorxiv.org/repository/view/13522/)" width="250px" %}
 {% endcapture %}
 {%
   include float.html
@@ -106,7 +106,7 @@ Alabama has several termite species that differ in ecology, behavior, distributi
 ## Connecting the dots
 
 {% capture content %}
-  {% include figure.html image="images/tree_image.png" caption="" width="300px" %}
+  {% include figure.html image="images/tree_image.png" alt="Conceptual tree connecting termite behavior, nest construction, social evolution, and biodiversity research" width="300px" %}
 {% endcapture %}
 {%
   include float.html
