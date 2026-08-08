@@ -124,6 +124,10 @@
   
 
   
+    <link href="/_styles/accessibility.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/alert.css" rel="stylesheet">
   
 
@@ -133,6 +137,10 @@
 
   
     <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/animated-media.css" rel="stylesheet">
   
 
   
@@ -347,6 +355,10 @@
 
   
 
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +374,8 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/animated-media.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
@@ -376,6 +390,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -389,7 +404,7 @@
     <a href="/" class="home">
       <div class="logo-title-container">
       
-        <span class="logo">
+        <span class="logo" aria-hidden="true">
           
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg975" version="1.1" viewbox="0 0 26.458334 26.458334" height="26.458334mm" width="26.458334mm">
@@ -427,7 +442,7 @@
     </a>
     <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
 
-    <nav class="nav_row">
+    <nav class="nav_row" aria-label="Primary navigation">
       
       
         
@@ -464,7 +479,7 @@
   
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -507,12 +522,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Comparative figure showing evolutionary patterns in termite tandem-running leader and follower roles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -539,12 +556,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/topic/Mizumoto-etal-2022-Evolution.jpeg" style="
-        width: 400px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/topic/Mizumoto-etal-2022-Evolution.jpeg" style="
+          width: 400px;
+          max-height: unset;
+        " alt="Comparative analysis linking termite nest complexity with the diversity of termitophilous rove beetles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -571,12 +590,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/topic/Mizumoto-Bourguignon-2021-PRSB.jpg" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/topic/Mizumoto-Bourguignon-2021-PRSB.jpg" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Phylogenetic comparison of body size across living and fossil termite species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -604,12 +625,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="https://onlinelibrary.wiley.com/cms/asset/0678ece2-8778-4ddb-88c6-4b7e40a505c8/ece36381-fig-0001-m.jpg" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="https://onlinelibrary.wiley.com/cms/asset/0678ece2-8778-4ddb-88c6-4b7e40a505c8/ece36381-fig-0001-m.jpg" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Diagram comparing one-piece, multiple-piece, and separate-piece termite nesting strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -709,6 +732,12 @@
 
 
     
+  </div>
+
+  <div>
+    <a href="https://www.auburn.edu/eaccessibility/">Accessibility</a>
+      |  
+    <a href="mailto:webadmn@auburn.edu?subject=Website%20accessibility%20issue">Report an accessibility issue</a>
   </div>
 
   <div>

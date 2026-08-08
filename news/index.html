@@ -124,6 +124,10 @@
   
 
   
+    <link href="/_styles/accessibility.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/alert.css" rel="stylesheet">
   
 
@@ -133,6 +137,10 @@
 
   
     <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/animated-media.css" rel="stylesheet">
   
 
   
@@ -347,6 +355,10 @@
 
   
 
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +374,8 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/animated-media.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
@@ -376,6 +390,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -389,7 +404,7 @@
     <a href="/" class="home">
       <div class="logo-title-container">
       
-        <span class="logo">
+        <span class="logo" aria-hidden="true">
           
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg975" version="1.1" viewbox="0 0 26.458334 26.458334" height="26.458334mm" width="26.458334mm">
@@ -427,7 +442,7 @@
     </a>
     <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
 
-    <nav class="nav_row">
+    <nav class="nav_row" aria-label="Primary navigation">
       
       
         
@@ -464,7 +479,7 @@
   
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -515,7 +530,7 @@
 
 <div class="portrait-wrapper">
   <a href="/members/Nobu-Mizumoto.html" class="portrait" data-style="tiny" aria-label="Nobuaki Mizumoto">
-    <img src="/images/members/Nobu_Mizumoto.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/members/Nobu_Mizumoto.jpg" class="portrait-image" alt="" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-text">
@@ -681,6 +696,12 @@ The Mizumoto Lab received an NSF award to study the mechanisms and evolution of 
 
 
     
+  </div>
+
+  <div>
+    <a href="https://www.auburn.edu/eaccessibility/">Accessibility</a>
+      |  
+    <a href="mailto:webadmn@auburn.edu?subject=Website%20accessibility%20issue">Report an accessibility issue</a>
   </div>
 
   <div>

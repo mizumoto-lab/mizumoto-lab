@@ -124,6 +124,10 @@
   
 
   
+    <link href="/_styles/accessibility.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/alert.css" rel="stylesheet">
   
 
@@ -133,6 +137,10 @@
 
   
     <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/animated-media.css" rel="stylesheet">
   
 
   
@@ -347,6 +355,10 @@
 
   
 
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +374,8 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/animated-media.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
@@ -376,6 +390,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -389,7 +404,7 @@
     <a href="/" class="home">
       <div class="logo-title-container">
       
-        <span class="logo">
+        <span class="logo" aria-hidden="true">
           
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg975" version="1.1" viewbox="0 0 26.458334 26.458334" height="26.458334mm" width="26.458334mm">
@@ -427,7 +442,7 @@
     </a>
     <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
 
-    <nav class="nav_row">
+    <nav class="nav_row" aria-label="Primary navigation">
       
       
         
@@ -464,7 +479,7 @@
   
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -507,12 +522,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Comparative figure showing evolutionary patterns in termite tandem-running leader and follower roles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -539,12 +556,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="https://www.cell.com/cms/attachment/7c371333-2e51-4206-99f7-cf419502554c/fx1.jpg" style="
-        width: 450px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="https://www.cell.com/cms/attachment/7c371333-2e51-4206-99f7-cf419502554c/fx1.jpg" style="
+          width: 450px;
+          max-height: unset;
+        " alt="Research figure comparing tandem-running communication and recruitment in different ant species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -573,12 +592,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/per_nit_tandem.jpeg" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/per_nit_tandem.jpeg" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Termite tandem-running pairs used to compare movement coordination between species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -608,12 +629,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/topic/Mizumoto-Dobata-2019-SciAdv.png" style="
-        width: 350px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/topic/Mizumoto-Dobata-2019-SciAdv.png" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Movement trajectories comparing termite mate-search behavior before pairing and after accidental separation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -626,12 +649,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/topic/Mizumoto-etal-2020-JAE.png" style="
-        width: 300px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/topic/Mizumoto-etal-2020-JAE.png" style="
+          width: 300px;
+          max-height: unset;
+        " alt="Analysis of male termite movement speed across different local mate densities" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
 </figure>
 
@@ -659,12 +684,28 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="Simulations">
-    <img src="/images/pub/Mizumoto-etal-2017_JRSI.gif" style="
-        width: 200px;
-        max-height: unset;
-      " alt="Simulations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    
+
+
+<div class="animated-media " data-animated-media="">
+  
+
+  <video class="animated-media-video" autoplay="" loop="" muted="" playsinline="" preload="metadata" aria-label="Animated simulation of male and female movement strategies for finding mating partners" style="
+      width: 200px;
+      max-height: unset;
+    ">
+    <source src="/images/pub/Mizumoto-etal-2017_JRSI.mp4" type="video/mp4"></source>
+  </video>
+
+  
+
+  <button type="button" class="animated-media-toggle" data-animated-media-toggle="" aria-label="Pause animation">
+    <span aria-hidden="true" data-animated-media-icon="">❚❚</span>
+  </button>
+</div>
+
+  
   
     <figcaption class="figure-caption">
       Simulations
@@ -697,12 +738,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="Termite activity under LD and darkness.">
-    <img src="/images/topic/3_rhythm.png" style="
-        width: 350px;
-        max-height: unset;
-      " alt="Termite activity under LD and darkness." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/topic/3_rhythm.png" style="
+          width: 350px;
+          max-height: unset;
+        " alt="Termite mate-search activity over time under light-dark cycles and constant darkness" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
     <figcaption class="figure-caption">
       Termite activity under LD and darkness.
@@ -734,12 +777,14 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="A pair of males survive more than 2 years together.">
-    <img src="/images/pub/Mizumoto-etal-2016-AB.png" style="
-        width: 250px;
-        max-height: unset;
-      " alt="A pair of males survive more than 2 years together." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a class="figure-image">
+      <img src="/images/pub/Mizumoto-etal-2016-AB.png" style="
+          width: 250px;
+          max-height: unset;
+        " alt="Two male termites living together in a same-sex colony-founding pair" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    </a>
+  
   
     <figcaption class="figure-caption">
       A pair of males survive more than 2 years together.
@@ -843,6 +888,12 @@
 
 
     
+  </div>
+
+  <div>
+    <a href="https://www.auburn.edu/eaccessibility/">Accessibility</a>
+      |  
+    <a href="mailto:webadmn@auburn.edu?subject=Website%20accessibility%20issue">Report an accessibility issue</a>
   </div>
 
   <div>
