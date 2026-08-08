@@ -1,5 +1,6 @@
 ---
 name: Mary Goldman
+image: images/members/mary.jpg
 role: undergrad
 status: alumni
 description: Undergraduate Researcher 2025-2026
