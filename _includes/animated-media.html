@@ -13,7 +13,11 @@
     muted
     playsinline
     preload="metadata"
-    aria-label="{{ label | escape }}"
+    {% if include.decorative %}
+      aria-hidden="true"
+    {% else %}
+      aria-label="{{ label | escape }}"
+    {% endif %}
     style="
       width: {{ include.width | default: "100%" }};
       max-height: {{ include.height | default: "unset" }};
