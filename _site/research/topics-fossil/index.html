@@ -124,6 +124,10 @@
   
 
   
+    <link href="/_styles/accessibility.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/alert.css" rel="stylesheet">
   
 
@@ -347,6 +351,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -376,6 +382,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -389,7 +396,7 @@
     <a href="/" class="home">
       <div class="logo-title-container">
       
-        <span class="logo">
+        <span class="logo" aria-hidden="true">
           
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)" id="svg975" version="1.1" viewbox="0 0 26.458334 26.458334" height="26.458334mm" width="26.458334mm">
@@ -427,7 +434,7 @@
     </a>
     <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
 
-    <nav class="nav_row">
+    <nav class="nav_row" aria-label="Primary navigation">
       
       
         
@@ -464,7 +471,7 @@
   
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -507,11 +514,11 @@
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
+  <a class="figure-image">
     <img src="/images/pub/Mizumoto-etal-2024-PNAS.jpg" style="
         width: 350px;
         max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Fossil termite pair preserved in amber and related analyses of their positions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
@@ -526,11 +533,11 @@ However, the female and male within the amber were positioned side-by-side. This
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
+  <a class="figure-image">
     <img src="/images/topic/Mizumoto-etal-2024-PNAS.jpeg" style="
         width: 350px;
         max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Experimental comparison between living termite pairs trapped on sticky surfaces and a fossil pair preserved in amber" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
@@ -563,11 +570,11 @@ In summary, our study demonstrated how inference of fossilized behavior can be r
 <div class="float" data-flip="">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
+  <a class="figure-image">
     <img src="https://static01.nyt.com/images/2019/06/04/science/29TB-FISHFOSSIL1/29TB-FISHFOSSIL1-superJumbo.jpg" style="
         width: 350px;
         max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Fossil slab preserving a group of small fish in a coordinated school-like arrangement" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
