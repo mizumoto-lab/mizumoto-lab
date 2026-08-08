@@ -1,24 +1,30 @@
 {% assign alt = include.alt | default: include.caption | default: "" %}
+{% assign video = include.image | replace: ".gif", ".mp4" %}
+{% assign has_video = video | file_exists %}
 
 <figure class="figure">
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url }}"
-      aria-label="{{ include.link_label | default: include.caption | default: alt | escape }}"
-    {% endif %}
-    class="figure-image"
-  >
-    <img
-      src="{{ include.image | relative_url }}"
-      style="
-        width: {{ include.width | default: "auto" }};
-        max-height: {{ include.height | default: "unset" }};
-      "
-      alt="{{ alt | escape }}"
-      loading="lazy"
-      {% include fallback.html %}
+  {% if include.image contains ".gif" and has_video %}
+    {% include animated-media.html image=include.image alt=alt caption=include.caption width=include.width height=include.height link=include.link link_label=include.link_label %}
+  {% else %}
+    <a
+      {% if include.link %}
+        href="{{ include.link | relative_url }}"
+        aria-label="{{ include.link_label | default: include.caption | default: alt | escape }}"
+      {% endif %}
+      class="figure-image"
     >
-  </a>
+      <img
+        src="{{ include.image | relative_url }}"
+        style="
+          width: {{ include.width | default: "auto" }};
+          max-height: {{ include.height | default: "unset" }};
+        "
+        alt="{{ alt | escape }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+  {% endif %}
   {% if include.caption %}
     <figcaption class="figure-caption">
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
