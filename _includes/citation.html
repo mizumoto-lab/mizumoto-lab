@@ -11,7 +11,7 @@
   {% if include.style == "rich" %}
     <div class="citation-image">
       {% if citation.image contains ".gif" and citation_has_video %}
-        {% include animated-media.html image=citation.image title=citation.title alt=citation.title link=citation.link class="citation-animation" %}
+        {% include animated-media.html image=citation.image title=citation.title alt="" link=citation.link link_label=citation.title class="citation-animation" %}
       {% else %}
         <a
           {% if citation.link %}
@@ -21,7 +21,7 @@
         >
           <img
             src="{{ citation.image | relative_url }}"
-            alt="{{ citation.title | default: "citation image" }}"
+            alt=""
             loading="lazy"
             {% include fallback.html %}
           >
