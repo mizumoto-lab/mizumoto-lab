@@ -4,23 +4,30 @@
   | first
   | default: include
 %}
+{% assign citation_video = citation.image | replace: ".gif", ".mp4" %}
+{% assign citation_has_video = citation_video | file_exists %}
 
 <div class="citation">
   {% if include.style == "rich" %}
-    <a
-      {% if citation.link %}
-        href="{{ citation.link | relative_url }}"
+    <div class="citation-image">
+      {% if citation.image contains ".gif" and citation_has_video %}
+        {% include animated-media.html image=citation.image title=citation.title decorative=true link=citation.link link_label=citation.title class="citation-animation" %}
+      {% else %}
+        <a
+          {% if citation.link %}
+            href="{{ citation.link | relative_url }}"
+          {% endif %}
+          aria-label="{{ citation.title | default: "citation link" }}"
+        >
+          <img
+            src="{{ citation.image | relative_url }}"
+            alt=""
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        </a>
       {% endif %}
-      class="citation-image"
-      aria-label="{{ citation.title | default: "citation link" }}"
-    >
-      <img
-        src="{{ citation.image | relative_url }}"
-        alt="{{ citation.title | default: "citation image" }}"
-        loading="lazy"
-        {% include fallback.html %}
-      >
-    </a>
+    </div>
   {% endif %}
 
   <div class="citation-text">

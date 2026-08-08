@@ -1,6 +1,11 @@
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
-  <button type="submit" class="button" aria-label="search site">
+<form onsubmit="onSiteSearchSubmit(event)" role="search">
+  <input
+    type="text"
+    name="query"
+    placeholder="Search site with Google"
+    aria-label="Search site with Google"
+  />
+  <button type="submit" class="button" aria-label="Search site">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
 </form>
