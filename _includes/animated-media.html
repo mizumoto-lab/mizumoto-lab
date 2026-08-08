@@ -1,0 +1,37 @@
+{% assign video = include.image | replace: ".gif", ".mp4" %}
+{% assign label = include.alt | default: include.title | default: include.caption | default: "Animation" %}
+
+<div class="animated-media {{ include.class }}" data-animated-media>
+  {% if include.link %}
+    <a href="{{ include.link | relative_url }}" aria-label="{{ include.link_label | default: label | escape }}">
+  {% endif %}
+
+  <video
+    class="animated-media-video"
+    autoplay
+    loop
+    muted
+    playsinline
+    preload="metadata"
+    aria-label="{{ label | escape }}"
+    style="
+      width: {{ include.width | default: "100%" }};
+      max-height: {{ include.height | default: "unset" }};
+    "
+  >
+    <source src="{{ video | relative_url }}" type="video/mp4">
+  </video>
+
+  {% if include.link %}
+    </a>
+  {% endif %}
+
+  <button
+    type="button"
+    class="animated-media-toggle"
+    data-animated-media-toggle
+    aria-label="Pause animation"
+  >
+    <span aria-hidden="true" data-animated-media-icon>❚❚</span>
+  </button>
+</div>
