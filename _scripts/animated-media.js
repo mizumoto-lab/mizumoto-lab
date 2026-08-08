@@ -27,8 +27,16 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if (reduceMotion) setAnimatedMediaState(container, false);
 
-    button.addEventListener("click", () => {
-      setAnimatedMediaState(container, video.paused);
+    const toggle = () => setAnimatedMediaState(container, video.paused);
+
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      toggle();
     });
+
+    if (!video.closest("a[href]")) {
+      video.addEventListener("click", toggle);
+    }
   });
 });
