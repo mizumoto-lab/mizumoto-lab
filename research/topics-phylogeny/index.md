@@ -11,7 +11,7 @@ Here are further explanations of research topics. Good examples of what type of 
 {% include section.html %}
 ## Evolution of leader role in termite tandem runs
 {% capture content %}
-  {% include figure.html image="images/pub/Mizumoto-etal-2022-PNAS.jpg" width="350px" %}
+  {% include figure.html image="images/pub/Mizumoto-etal-2022-PNAS.jpg" alt="Comparative figure showing evolutionary patterns in termite tandem-running leader and follower roles" width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -26,7 +26,7 @@ Termites show same-sex tandem running behavior for both female-female pairs and 
 {% include section.html %}
 ## Evolution of termite nest and termitophilous rove beetles
 {% capture content %}
-  {% include figure.html image="images/topic/Mizumoto-etal-2022-Evolution.jpeg" width="400px" %}
+  {% include figure.html image="images/topic/Mizumoto-etal-2022-Evolution.jpeg" alt="Comparative analysis linking termite nest complexity with the diversity of termitophilous rove beetles" width="400px" %}
 {% endcapture %}
 {%
   include float.html
@@ -40,7 +40,7 @@ Termites show same-sex tandem running behavior for both female-female pairs and 
 {% include section.html %}
 ## Evolution of body size in termites
 {% capture content %}
-  {% include figure.html image="images/topic/Mizumoto-Bourguignon-2021-PRSB.jpg" width="350px" %}
+  {% include figure.html image="images/topic/Mizumoto-Bourguignon-2021-PRSB.jpg" alt="Phylogenetic comparison of body size across living and fossil termite species" width="350px" %}
 {% endcapture %}
 {%
   include float.html
@@ -55,7 +55,7 @@ During the long home quarantine due to the COVID-19 pandemic, I assembled body s
 {% include section.html %}
 ## Evolution of nesting types in termites
 {% capture content %}
-  {% include figure.html image="https://onlinelibrary.wiley.com/cms/asset/0678ece2-8778-4ddb-88c6-4b7e40a505c8/ece36381-fig-0001-m.jpg" width="350px" %}
+  {% include figure.html image="https://onlinelibrary.wiley.com/cms/asset/0678ece2-8778-4ddb-88c6-4b7e40a505c8/ece36381-fig-0001-m.jpg" alt="Diagram comparing one-piece, multiple-piece, and separate-piece termite nesting strategies" width="350px" %}
 {% endcapture %}
 {%
   include float.html
