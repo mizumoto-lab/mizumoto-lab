@@ -140,6 +140,10 @@
   
 
   
+    <link href="/_styles/animated-media.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/background.css" rel="stylesheet">
   
 
@@ -353,6 +357,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -367,6 +373,8 @@
 
 
   <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/animated-media.js"></script>
 
   <script src="/_scripts/dark-mode.js"></script>
 
@@ -511,9 +519,13 @@
 <p>Mizumoto Lab is interested in the evolution of termite collective behavior. What are the rules for behavioral coordination? How did they originate in the history of life? We answer these questions by integrating field work, behavioral observations, computational tracking, and phylogenetic comparative analysis. See our <a href="publication">Publications</a> and <a href="research">Research</a> for details.</p>
 
 <div class="feature" data-flip="">
-  <a class="feature-image" aria-label="Termites">
-    <img src="/images/Shelter-tubes.jpg" loading="lazy" alt="Termite shelter tubes constructed across a surface" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  <div class="feature-image">
+    
+      <a aria-label="Termites">
+        <img src="/images/Shelter-tubes.jpg" loading="lazy" alt="Termite shelter tubes constructed across a surface" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+  </div>
   <div class="feature-text">
     
       <p class="feature-title">Termites</p>
@@ -525,9 +537,30 @@
 </div>
 
 <div class="feature">
-  <a class="feature-image" aria-label="Computational behavioral analysis">
-    <img src="/images/pub/Mizumoto-etal-2020-JAE.gif" loading="lazy" alt="Animated visualization of termite movement used for computational behavioral analysis" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  <div class="feature-image">
+    
+      
+
+
+<div class="animated-media feature-animation" data-animated-media="">
+  
+
+  <video class="animated-media-video" autoplay="" loop="" muted="" playsinline="" preload="metadata" aria-label="Animated visualization of termite movement used for computational behavioral analysis" style="
+      width: 100%;
+      max-height: unset;
+    ">
+    <source src="/images/pub/Mizumoto-etal-2020-JAE.mp4" type="video/mp4"></source>
+  </video>
+
+  
+
+  <button type="button" class="animated-media-toggle" data-animated-media-toggle="" aria-label="Pause animation">
+    <span aria-hidden="true" data-animated-media-icon="">❚❚</span>
+  </button>
+</div>
+
+    
+  </div>
   <div class="feature-text">
     
       <p class="feature-title">Computational behavioral analysis</p>
@@ -539,9 +572,13 @@
 </div>
 
 <div class="feature" data-flip="">
-  <a class="feature-image" aria-label="Phylogeny and Evolution">
-    <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" loading="lazy" alt="Research figure illustrating the evolution of termite tandem-running behavior across species" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
+  <div class="feature-image">
+    
+      <a aria-label="Phylogeny and Evolution">
+        <img src="/images/pub/Mizumoto-etal-2022-PNAS.jpg" loading="lazy" alt="Research figure illustrating the evolution of termite tandem-running behavior across species" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+  </div>
   <div class="feature-text">
     
       <p class="feature-title">Phylogeny and Evolution</p>
@@ -747,6 +784,12 @@ The Mizumoto Lab received an NSF award to study the mechanisms and evolution of 
 
 
     
+  </div>
+
+  <div>
+    <a href="https://www.auburn.edu/eaccessibility/">Accessibility</a>
+      |  
+    <a href="mailto:webadmn@auburn.edu?subject=Website%20accessibility%20issue">Report an accessibility issue</a>
   </div>
 
   <div>
