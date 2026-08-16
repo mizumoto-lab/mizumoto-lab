@@ -26,16 +26,20 @@ At this time, Mizumoto-lab is not accepting students. However, if you are very i
 If you are interested in a graduate student position (master's or phd), please send: 1) a cover letter mentioning research interests and research experience (if any), and 2) your CV, to [nzm0095@auburn.edu](mailto:nzm0095@auburn.edu). <br>-->
 <!-- **Project** Comparative behavioral analysis of termite and cockroach species to infer the evolutionary origin of nesting and social behavior in termites. See [here](https://www.dropbox.com/scl/fi/i2o5ci6506qb2x6xz5dzs/2024_grad_students.pdf?rlkey=qgw7g301p90h525pgmh3v2th9&dl=0) for more information. -->
 
+## Postdoctoral researcher
 
-## Postdocs
+An **NSF-funded postdoctoral position** is available in the Mizumoto Lab, with a flexible start date in **2027 or later**.
 
-An NSF-funded postdoctoral position is anticipated for 2027, with flexibility for a later start.
+The project investigates **how collective nest-building behavior evolved in termites** through three complementary approaches:
 
-The project investigates how collective nest-building behavior evolved in termites by integrating comparative behavioral experiments across 21 species, computational modeling of the relationship between individual behavior and colony-level structures, and phylogenetic comparative analysis.
+* comparative quantitative analysis of building behavior across 21 termite species
+* modeling linking individual behavior to emergent nest structures
+* phylogenetic comparative analyses of behavioral and nest evolution
 
-I am particularly interested in hearing from researchers with a strong background in computational modeling or quantitative behavioral analysis and an interest in social insects, collective behavior, or behavioral evolution. The postdoctoral researcher would take intellectual leadership in developing a computational framework that connects variation in individual building behavior with variation in emergent nest structures.
+I am interested in hearing from researchers from **either computational or biological backgrounds**. Relevant expertise may include computational modeling, collective behavior, quantitative behavioral analysis, social insects, comparative biology, or behavioral evolution. Experience across all of these areas is not expected, and the research emphasis can be shaped by the candidate's background and interests.
 
-Researchers whose background is a strong fit for this project are welcome to contact Dr. Mizumoto with a brief introduction and CV.
+The start date is flexible, including later in 2027 or beyond. There is currently no fixed application deadline. Prospective candidates are encouraged to contact Dr. Mizumoto with a **CV and a brief description of their research background, interests, and potential fit with the project**.
+
 
 ## Undergraduate researchers
 
