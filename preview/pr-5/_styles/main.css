@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.member-profile {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start;
+  gap: 45px;
+  margin: 20px 0 40px;
+}
+
+.member-sidebar {
+  text-align: center;
+}
+
+.member-sidebar .portrait {
+  margin: 0 auto 20px;
+}
+
+.member-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.member-bio {
+  min-width: 0;
+}
+
+.member-bio > :first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .member-profile {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .member-sidebar {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
