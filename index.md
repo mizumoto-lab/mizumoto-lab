@@ -43,6 +43,13 @@ There are > 3,000 species of termites in the world, showing a great diversity of
   flip  = true
 %}
 
+{% include section.html %}
+
+## Found termites in Alabama?
+
+We identify submitted termite samples and use verified records to improve the [Alabama Termite Map](https://mizumoto-lab.github.io/AL-termite-map/).
+
+[Learn how to submit a termite sample]({{ "/alabama-termites/" | relative_url }}).
 
 {% include section.html %}
 
