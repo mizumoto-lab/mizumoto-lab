@@ -1,7 +1,7 @@
 ---
 title: Alabama Termites
 nav:
-  order: 3
+  order: 2.5
   tooltip: Alabama termite identification and mapping
 ---
 
