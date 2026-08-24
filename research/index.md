@@ -101,6 +101,8 @@ Current research examines worker evolution, transitions in nesting and foraging,
 
 Alabama has several termite species that differ in ecology, behavior, distribution, and economic importance. We are developing an Alabama Termite Identification Service and Distribution Mapping program to improve species identification, document regional diversity, and connect research with pest-management and extension needs.
 
+[Learn more about Alabama termite identification and mapping]({{ "/alabama-termites/" | relative_url }}).
+
 {% include section.html %}
 
 ## Connecting the dots
