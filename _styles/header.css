@@ -164,5 +164,24 @@ header[data-big] .title > *:first-child {
 header[data-big] .title > *:last-child {
   font-size: var(--large);
 }
+@media (max-width: 500px) {
+  header[data-big] .title-nav-container {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 10px;
+  }
+  header[data-big] .home {
+    width: 100%;
+  }
+  header[data-big] .title {
+    margin-right: 0;
+  }
+  header[data-big] .nav_row {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */
