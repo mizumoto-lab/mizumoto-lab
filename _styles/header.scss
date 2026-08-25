@@ -1,7 +1,6 @@
 ---
 ---
 
-// changing $logo-big and $big-padding -> change of header height
 $logo-big: 70px;
 $logo: 50px;
 $big-padding: 25px;
@@ -13,9 +12,8 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0px;
-  padding: 0px;
-  padding-bottom: 0px;
+  gap: 0;
+  padding: 0;
   box-shadow: var(--shadow);
 
   @if $sticky {
@@ -34,7 +32,7 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
 }
 
 .logo-title-container {
@@ -72,12 +70,10 @@ header a {
   flex-grow: 2;
 }
 
-// main title
 .title > *:first-child {
   font-size: var(--medium);
 }
 
-// subtitle
 .title > *:last-child {
   opacity: 0.65;
   font-weight: var(--thin);
@@ -86,13 +82,15 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
   margin: 0;
+  border: 0;
+  background: transparent;
   color: var(--text);
   -webkit-appearance: none;
   appearance: none;
-  transition-property: background;
 }
 
 .nav-toggle:after {
@@ -101,7 +99,7 @@ header a {
   left: 50%;
   top: 50%;
   color: var(--text);
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
@@ -114,7 +112,6 @@ header a {
 nav {
   display: flex;
   justify-content: center;
-  align-items: right;
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
@@ -127,26 +124,6 @@ nav > a {
 
 nav > a:hover {
   color: var(--primary);
-}
-
-header:not([data-big]) {
-  @media (max-width: $collapse) {
-    justify-content: flex-end;
-
-    .nav-toggle {
-      display: flex;
-    }
-
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
-    nav {
-      align-items: flex-end;
-      flex-direction: column;
-      width: 100%;
-    }
-  }
 }
 
 header[data-big] {
@@ -172,10 +149,10 @@ header[data-big] {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex-grow: 2; // Increase the flex grow to occupy more space
-    white-space: nowrap; // Prevent wrapping
-    overflow: hidden; // Hide overflowing content
-    text-overflow: ellipsis; // Show ellipsis if content overflows
+    flex-grow: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-right: 20px;
   }
 
@@ -190,27 +167,92 @@ header[data-big] {
   .title > *:last-child {
     font-size: var(--large);
   }
+}
 
-  @media (max-width: $collapse) {
-    .title-nav-container {
-      flex-direction: column;
-      width: 100%;
-      box-sizing: border-box;
-      gap: 10px;
-    }
+@media (max-width: $collapse) {
+  header,
+  header[data-big] {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+  }
 
-    .home {
-      width: 100%;
+  header[data-big] {
+    @if $sticky {
+      top: 0;
     }
+  }
 
-    .title {
-      margin-right: 0;
-    }
+  .title-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
 
-    .nav_row {
-      width: 100%;
-      margin-left: 0;
-      justify-content: center;
-    }
+  .home,
+  header[data-big] .home {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+    flex-direction: row;
+  }
+
+  .logo,
+  header[data-big] .logo {
+    height: 42px;
+  }
+
+  .logo-title-container {
+    min-width: 0;
+  }
+
+  .title,
+  header[data-big] .title {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 8px;
+    margin-right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .title > *:first-child,
+  header[data-big] .title > *:first-child {
+    font-size: var(--medium);
+  }
+
+  .title > *:last-child,
+  header[data-big] .title > *:last-child {
+    font-size: var(--small);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+
+  nav,
+  header[data-big] .nav_row {
+    flex: 0 0 100%;
+    width: 100%;
+    margin: 8px 0 0;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  nav > a {
+    padding: 6px 0;
   }
 }
