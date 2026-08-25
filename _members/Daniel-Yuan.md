@@ -1,7 +1,7 @@
 ---
 name: Daniel Yuan
 role: undergrad
-status: current
+status: alumni
 description: Undergraduate Researcher 2025-2026
 ---
 

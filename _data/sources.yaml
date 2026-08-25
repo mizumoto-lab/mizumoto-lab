@@ -14,12 +14,19 @@
   type: preprint
   image: images/pub/Mizumoto-2026.png
 
-# Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. EcoEvoRxiv: 10.32942/X21H4M (under review in Urban Ecosystem)
-- id: 10.32942/X21H4M
-  type: preprint
-  image: images/pub/Hu-Mizumoto-2026.png
-
 # Paper published
+# 56 Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. EcoEvoRxiv: 10.32942/X21H4M (under review in Urban Ecosystem)
+- id: 10.1007/s11252-026-02107-z
+  type: paper
+  image: images/pub/Hu-Mizumoto-2026.png
+  button:
+    - type: preprint
+      text: EcoEvoRxiv
+      link: https://doi.org/10.32942/X21H4M
+    - type: source
+      link: https://github.com/nobuaki-mzmt/FST-AL-distribution
+
+
 # 55.	Mizumoto N.*, Kaliang C. H. & Kanao T. (2026) Hidden role plasticity of the reproductive caste in a morphologically differentiated termite society. OIKOS doi: 10.1002/oik.12492
 - id: 10.1002/oik.12492
   type: paper

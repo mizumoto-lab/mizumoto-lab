@@ -37,17 +37,23 @@
   image: images/pub/Mizumoto-2026.png
   plugin: sources.py
   file: sources.yaml
-- id: 10.32942/X21H4M
-  title: 'Four decades of inland invasion by Formosan subterranean termite in Alabama:
-    expansion associated with transportation infrastructure'
+- id: 10.1007/s11252-026-02107-z
+  title: 'Four decades of inland invasion by the Formosan subterranean termite in
+    Alabama: expansion associated with transportation infrastructure'
   authors:
   - Xing Ping Hu
   - Nobuaki Mizumoto
-  publisher: California Digital Library (CDL)
-  date: '2026-06-17'
-  link: https://doi.org/hcb8gg
-  type: preprint
+  publisher: Urban Ecosystems
+  date: '2026-08-24'
+  link: https://doi.org/hcgnvc
+  type: paper
   image: images/pub/Hu-Mizumoto-2026.png
+  button:
+  - type: preprint
+    text: EcoEvoRxiv
+    link: https://doi.org/10.32942/X21H4M
+  - type: source
+    link: https://github.com/nobuaki-mzmt/FST-AL-distribution
   plugin: sources.py
   file: sources.yaml
 - id: 10.1002/oik.12492
