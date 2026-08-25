@@ -30,8 +30,7 @@
           {% endif %}
         </span>
       {% endif %}
-      {% if site.logo-text != false %} 
-      
+      {% if site.logo-text != false %}
         <span class="title" data-tooltip="Home">
           {% if site.title and site.show-title != false %}
             <span>{{ site.title }}</span>
@@ -43,7 +42,8 @@
       {% endif %}
       </div>
     </a>
-    <!-- <input class="nav-toggle" type="checkbox" aria-label="show/hide nav"> -->
+
+    <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation">
 
     <nav class="nav_row" aria-label="Primary navigation">
       {% assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" %}
