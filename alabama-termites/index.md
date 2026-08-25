@@ -7,13 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-map-location-dot" %} Alabama Termite Identification & Mapping
 
-Found termites in Alabama? The Mizumoto Lab at Auburn University, with Auburn Plant Diagnostic Lab, identifies submitted termite samples and uses verified records to improve our understanding of termite distributions across the state.
+Found termites in Alabama? The Mizumoto Lab at Auburn University, in collaboration with the Auburn Plant Diagnostic Lab, identifies submitted termite samples and uses verified records to improve our understanding of termite distributions across the state.
 
 {% include button.html text="Explore the Alabama Termite Map" icon="fa-solid fa-map" link="https://mizumoto-lab.github.io/AL-termite-map/" %}
 
 ## Send us a termite sample
 
-- Collect several termites. **Soldiers and winged termites (alates/swarmers)** are nessesary for identification.
+- Collect several termites. Please include **soldiers or winged termites (alates/swarmers)**, which are needed for reliable species identification.
 - Place the termites in a small, sturdy, tightly sealed container. Do not mail loose termites in an envelope.
 - Include your **name and email**, **collection date**, **exact collection location** (street address or coordinates), and a short note describing **where the termites were found**.
 - If you have a tentative identification, please include it.
