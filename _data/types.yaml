@@ -211,6 +211,9 @@ unpublished:
 
 manubot:
   icon: manubot.svg
+  text: Manubot
+  tooltip: Manubot
+  link: https://github.com/manubot/manubot
 
 # software
 
