@@ -15,7 +15,7 @@
   image: images/pub/Mizumoto-2026.png
 
 # Paper published
-# 56 Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. EcoEvoRxiv: 10.32942/X21H4M (under review in Urban Ecosystem)
+# 56 Hu X-P. & Mizumoto N.* (2026) Four decades of inland invasion by the Formosan subterranean termite in Alabama: expansion associated with transportation infrastructure. Urban Ecosystems 29:244. doi: 10.1007/s11252-026-02107-z
 - id: 10.1007/s11252-026-02107-z
   type: paper
   image: images/pub/Hu-Mizumoto-2026.png
@@ -357,7 +357,6 @@
         - type: preprint
           text: bioRxiv
           link: https://doi.org/10.1101/765198
-
 #19. Mizumoto N.*, Gile G. H. & Pratt S.C. (2020) Behavioral rules for soil excavation by colony founders and workers in termites. Annals of the Entomological Society of America, 114(5):654-661, DOI:10.1093/aesa/saaa017
 - id: doi:10.1093/aesa/saaa017
   type: old_paper
@@ -477,7 +476,6 @@
 - id: doi:10.1007/s10144-017-0584-3 
   type: old_paper
   image: images/pub/Mizumoto-etal-2017-PE.png
-
 # 5.  Nagaya N.*#, Mizumoto N.#, Abe M. S., Dobata S., Sato R. & Fujisawa R.* (2017) Anomalous diffusion on the servosphere: a potential tool for detecting inherent organismal movement patterns. PLOS ONE 12(6): e0177480. DOI:10.1371/journal.pone.0177480 
 - id: doi:10.1371/journal.pone.0177480 
   type: old_paper
@@ -532,12 +530,11 @@
       link: https://www.kyoto-u.ac.jp/ja/research-news/2015-11-05
 
 # 1.  Mizumoto N. & Matsuura K.* (2013) Colony-specific architecture of shelter tubes by termites. Insectes Sociaux 60: 525-530. DOI:10.1007/s00040-013-0319-1 
-- id: doi:10.1007/s00040-013-0319-1 
+- id: doi:10.1007/s00040-013-0319-1
   type: old_paper
   image: images/pub/Mizumoto-Matsuura-2013.jpg
   buttons:
     - type: journal
       text: ScienceShot
       link: https://www.science.org/content/article/scienceshot-termite-architects-have-their-own-plans
-
 
