@@ -190,4 +190,27 @@ header[data-big] {
   .title > *:last-child {
     font-size: var(--large);
   }
+
+  @media (max-width: $collapse) {
+    .title-nav-container {
+      flex-direction: column;
+      width: 100%;
+      box-sizing: border-box;
+      gap: 10px;
+    }
+
+    .home {
+      width: 100%;
+    }
+
+    .title {
+      margin-right: 0;
+    }
+
+    .nav_row {
+      width: 100%;
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
 }
