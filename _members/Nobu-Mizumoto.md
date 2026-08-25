@@ -13,7 +13,7 @@ links:
   email: nzm0095@auburn.edu
   #twitter: nobuakiMZMT
   google-scholar: bALkDW4AAAAJ
-  reseachgate: Nobuaki-Mizumoto
+  researchgate: Nobuaki-Mizumoto
   #orcid: 0000-0002-6731-8684
   cv: files/CV_NobuakiMizumoto.pdf
 ---

@@ -12,7 +12,7 @@ links:
   # google-scholar: YOUR_GOOGLE_SCHOLAR_ID
   # github: YOUR_GITHUB_USERNAME
   # linkedin: YOUR_LINKEDIN_USERNAME
-  # reseachgate: YOUR_RESEARCHGATE_USERNAME
+  # researchgate: YOUR_RESEARCHGATE_USERNAME
 ---
 
 First Last is a [Ph.D. student / M.S. student / undergraduate researcher / research assistant] in the Mizumoto Lab. [Describe your general research interests and the main question or topic you are studying.]

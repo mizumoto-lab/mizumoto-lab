@@ -138,7 +138,7 @@ linkedin:
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
 
-reseachgate:
+researchgate:
   icon: fa-brands fa-researchgate
   text: Research Gate
   tooltip: Research Gate
@@ -211,8 +211,6 @@ unpublished:
 
 manubot:
   icon: manubot.svg
-  text: Manubot
-  tooltip: Manubot
 
 # software
 

@@ -12,7 +12,7 @@ aliases:
   - E.P. Carroll
 links:
   email: epc0015@auburn.edu
-  reseachgate: Elijah_Carroll
+  researchgate: Elijah_Carroll
   orcid: 0009-0001-8981-5024
 ---
 

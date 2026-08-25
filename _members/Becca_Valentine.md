@@ -10,7 +10,7 @@ aliases:
   - Rebecca Valentine
 links:
   email: rav0025@auburn.edu
-  reseachgate: Rebecca-Valentine-3
+  researchgate: Rebecca-Valentine-3
 ---
 
 Becca Valentine is an M.S. student in the Mizumoto Lab. She is interested in eusocial insect behavior and the evolution of collective construction.
