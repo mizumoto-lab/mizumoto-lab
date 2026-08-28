@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://mizumoto-lab.com/sitemap.xml
