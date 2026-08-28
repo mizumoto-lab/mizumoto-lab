@@ -1,16 +1,14 @@
 # start with official ruby docker image as base
-FROM ruby:3.1.2
+FROM ruby:3.3
 
 # set working directory within container
 WORKDIR /usr/src/app
 
 # pull in ruby (jekyll) and python (cite process) package info
-COPY Gemfile Gemfile.lock _cite/requirements.txt ./
+COPY Gemfile _cite/requirements.txt ./
 
 # install ruby packages
-RUN VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs); \
-    gem install bundler --version ${VERSION} && \
-    bundle _${VERSION}_ install
+RUN bundle install
 
 # install python
 RUN apt update && apt install -y python3 python3-pip
