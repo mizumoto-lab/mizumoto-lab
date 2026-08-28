@@ -26,6 +26,6 @@ Her research examines how tunneling and excavation behaviors vary across termite
 ### Presentations:
 
 - Goldman M., Valentine R. & Mizumoto N., Inferring the body size of the common ancestor of termites and wood-feeding cockroaches. Auburn's 2026 Research Symposium (Auburn, AL, USA), Mar 2026 (Poster)
-- Valentine R. & Mizumoto N., Exploring sand excavation potential of Kalotermes approximates. ITC2025: International termite course (Fort Lauderdale, FL, USA), June 12, 2025 (8-minute presentation for a student symposium).
-- Valentine R. & Mizumoto N., Exploring sand excavation potential in dark southern drywood termite Kalotermes approximates (Blattodea:Termitidae). 2025 Plants, Insects and Microbes Symposium (Auburn, AL, USA), May 2025 (Poster)
+- Valentine R. & Mizumoto N., Exploring sand excavation potential of Kalotermes approximatus. ITC2025: International termite course (Fort Lauderdale, FL, USA), June 12, 2025 (8-minute presentation for a student symposium).
+- Valentine R. & Mizumoto N., Exploring sand excavation potential in dark southern drywood termite Kalotermes approximatus (Blattodea: Kalotermitidae). 2025 Plants, Insects and Microbes Symposium (Auburn, AL, USA), May 2025 (Poster)
 - Valentine R. & Mizumoto N., Exploring sand excavation potential in dark southern drywood termite Kalotermes approximatus. 2025 Southeastern Branch Meeting of Entomological Society of America (Baton Rouge, LA, USA), Mar 2025 (Oral)
