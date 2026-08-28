@@ -80,9 +80,10 @@
         </div>
       {% endif %}
 
-      {% if citation.buttons.size > 0 %}
+      {% assign citation_buttons = citation.buttons | default: citation.button %}
+      {% if citation_buttons.size > 0 %}
         <div class="citation-buttons">
-          {% for button in citation.buttons %}
+          {% for button in citation_buttons %}
             {%
               include button.html
               type=button.type
