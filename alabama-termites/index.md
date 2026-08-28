@@ -29,7 +29,7 @@ Collect several termites. Please include **soldiers or winged termites (alates/s
 
 Place the termites in a **small, sturdy, tightly sealed container**. Do not mail loose termites in an envelope.
 
-Please include your **name and email**, **collection date**, **exact collection location** (street address or coordinates), your tentative identification, if you have one
+Please include your **name and email**, **collection date**, **exact collection location** (street address or coordinates), your tentative identification, if you have one.
 
 Mail to **Auburn Plant Diagnostic Lab**  
 Attention: Meredith Shrader  
