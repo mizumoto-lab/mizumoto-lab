@@ -18,14 +18,6 @@ We are recruiting **two PhD students in Entomology for Fall 2027**:
 
 Applicants may apply to either or both positions. See the [Fall 2027 PhD recruitment page](../recruitment) for full descriptions and application instructions.
 
-<!-- ###Graduate students at the Department of Entomology & Plant Pathology at Auburn University are fully funded by Research Assistantship. <br>
-At this time, Mizumoto-lab is not accepting students. However, if you are very interested in joining the lab in the future. We are happy to start discussing the opportunity beforehand.
-<!-- ### **[We are recruiting a graduate student](https://github.com/nobuaki-mzmt/mizumoto-lab/blob/main/job_ad_NM_2026.pdf)** --->
-
-<!-- We are actively looking for graduate students for Fall 2024!<br> 
-If you are interested in a graduate student position (master's or phd), please send: 1) a cover letter mentioning research interests and research experience (if any), and 2) your CV, to [nzm0095@auburn.edu](mailto:nzm0095@auburn.edu). <br>-->
-<!-- **Project** Comparative behavioral analysis of termite and cockroach species to infer the evolutionary origin of nesting and social behavior in termites. See [here](https://www.dropbox.com/scl/fi/i2o5ci6506qb2x6xz5dzs/2024_grad_students.pdf?rlkey=qgw7g301p90h525pgmh3v2th9&dl=0) for more information. -->
-
 ## Postdoctoral researcher
 
 An **NSF-funded postdoctoral position** is available in the Mizumoto Lab, with a flexible start date in **2027 or later**.
@@ -39,7 +31,6 @@ The project investigates **how collective nest-building behavior evolved in term
 I am interested in hearing from researchers from **either computational or biological backgrounds**. Relevant expertise may include computational modeling, collective behavior, quantitative behavioral analysis, social insects, comparative biology, or behavioral evolution. Experience across all of these areas is not expected, and the research emphasis can be shaped by the candidate's background and interests.
 
 The start date is flexible, including later in 2027 or beyond. There is currently no fixed application deadline. Prospective candidates are encouraged to contact Dr. Mizumoto with a **CV and a brief description of their research background, interests, and potential fit with the project**.
-
 
 ## Undergraduate researchers
 
@@ -57,11 +48,9 @@ To inquire, email Dr. Nobuaki Mizumoto at [nzm0095@auburn.edu](mailto:nzm0095@au
 - Brief description of research interests
 - Interest in ENTM 4980, paid work, or either option
 
-
 {% include section.html %}
 
-
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %} Contact
 {%
   include button.html
   type="email"
