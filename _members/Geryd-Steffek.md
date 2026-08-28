@@ -17,7 +17,7 @@ links:
   google-scholar: lFgA-XAAAAAJ
   github: steffg96
   linkedin: geryd-steffek
-  # reseachgate: 
+  # researchgate: 
 ---
 
 Geryd Steffek is an M.S. student in the Mizumoto Lab studying how individual behavioral rules give rise to collective tunneling and search patterns in termites. His broader research interests are in cognitive ecology, particularly how organisms learn about, remember, and solve problems within their environments.
@@ -36,4 +36,4 @@ His research combines simulation, behavioral experiments, and quantitative analy
 
 ### Presentations
 
-#- Add presentations here, if applicable.
+<!-- Add presentations here, if applicable. -->
