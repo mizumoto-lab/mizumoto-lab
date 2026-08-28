@@ -84,11 +84,12 @@
       {% if citation_buttons.size > 0 %}
         <div class="citation-buttons">
           {% for button in citation_buttons %}
+            {% assign button_text = button.text | replace: "ScinceDaily", "ScienceDaily" %}
             {%
               include button.html
               type=button.type
               icon=button.icon
-              text=button.text
+              text=button_text
               link=button.link
               style="bare"
             %}
