@@ -25,7 +25,7 @@ Elijah combines field collection, individual marking, behavioral experiments, au
 ### Education:
 
 - 2023 MS, Entomology, Auburn University
-- 2021 BS, Organismal biology, Auburn University
+- 2021 BS, Organismal Biology, Auburn University
 
 ### Publications:
 
@@ -33,8 +33,6 @@ Elijah combines field collection, individual marking, behavioral experiments, au
 
 - Carroll, E.P., N. Kunte, E. McGraw, S. Gautam, R. Range, J.A. Noveron-Nunez, D.W. Held, L.A. Avila. 2023. Gene silencing in adult *Popillia japonica* through feeding of double‐stranded RNA (dsRNA) complexed with Branched Amphiphilic Peptide Capsules (BAPCs). Frontiers in Insect Science, 3, 1151789. https://doi.org/10.3389/finsc.2023.1151789 
 
-- Sullins, K.N., S.L. Dillard, D.W. Held, and E.P. Carroll. 2023. The Effects of Plant Growth-Promoting Rhizobacteria and Nitrogen Fertilizer on Forage Biomass and Quality, Arthropod Populations, and Soil Health in Bermudagrass Hay Fields. Microorganism, 11(4), 863. https://doi.org/10.3390/microorganisms11040863
+- Sullins, K.N., S.L. Dillard, D.W. Held, and E.P. Carroll. 2023. The Effects of Plant Growth-Promoting Rhizobacteria and Nitrogen Fertilizer on Forage Biomass and Quality, Arthropod Populations, and Soil Health in Bermudagrass Hay Fields. Microorganisms, 11(4), 863. https://doi.org/10.3390/microorganisms11040863
 
-- Ibiyemi, O.D.,  E.P. Carroll, D.W. Held, A.M. Chicas-Mosier. Evaluation of olfactory and visual cues for conservation biological control of crape myrtle bark scale in urban landscapes. Pest Management Science. (Accepted). 
-
-
+- Ibiyemi, O.D., E.P. Carroll, D.W. Held, A.M. Chicas-Mosier. Evaluation of olfactory and visual cues for conservation biological control of crape myrtle bark scale in urban landscapes. Pest Management Science. (Accepted).
