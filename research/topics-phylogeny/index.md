@@ -4,7 +4,7 @@ title: Research topics
 
 # {% include icon.html icon="fa-solid fa-wrench" %} Research topics - termite evolution
 
-Here are further explanations of research topics. Good examples of what type of research we do here.
+Here are further explanations of our research topics and examples of the kinds of research we do.
 
 
 
@@ -18,7 +18,7 @@ Here are further explanations of research topics. Good examples of what type of 
   content=content
   flip=true
 %}
-Termites show same-sex tandem running behavior for both female-female pairs and male-male pairs. How do they achieve such irregular pair movement coordinations? And why they can exhibit such a behavioral plasticity. Using state-of-the-art automated video tracking and trajectory analysis of movement behavior, we revealed that same-sex tandem run is achieved by one individual behaving like the other sex. Using data-driven simulations, we show that this behavioral plasticity contributes to maintaining pair coordination. We also summarized all literature information about termite mating behavior of 72 species. We demonstrated that they have such behavioral flexibility because the ancestor of termites did not have sex-specific leader-follower roles, where both females and males could be leaders and followers. Termites inherited this behavioral flexibility from an ancestral lineage and used it for same-sex tandem running behavior.<br>
+Termites show same-sex tandem-running behavior in both female-female and male-male pairs. How do they achieve such unusual pair movement coordination? Why can they exhibit such behavioral plasticity? Using state-of-the-art automated video tracking and trajectory analysis of movement behavior, we revealed that same-sex tandem running is achieved by one individual behaving like the other sex. Using data-driven simulations, we showed that this behavioral plasticity contributes to maintaining pair coordination. We also compiled published information about termite mating behavior across 72 species and demonstrated that termites have such behavioral flexibility because their ancestor did not have sex-specific leader-follower roles, so both females and males could lead or follow. Termites inherited this behavioral flexibility from an ancestral lineage and use it for same-sex tandem-running behavior.<br>
 [Mizumoto et al., 2022 PNAS](https://doi.org/10.1073/pnas.2212401119) 
 
 {% include tags.html tags="tandem" link="publication" %}
@@ -33,7 +33,7 @@ Termites show same-sex tandem running behavior for both female-female pairs and 
   content=content
   flip=true
 %}
-　Observing termite nests, you may find insects that are not termites. They are called termitophiles, social parasites integrated into the termite society. We combined an epidemiological model with a phylogenetic comparative analysis to demonstrate that the evolution of complex nesting habitats in termites facilitates the evolution of social parasitism. We compiled all termitophilous rove beetle records to date and available colony size information in termites from the literature survey. Previous studies on social parasites mainly focused on the parasite species and thus often lacked the perspectives from host social insect species. This study fills the gap by revealing the characteristics of host species that foster social parasitism. <br>
+Observing termite nests, you may find insects that are not termites. They are called termitophiles, social parasites integrated into termite societies. We combined an epidemiological model with a phylogenetic comparative analysis to demonstrate that the evolution of complex nesting habitats in termites facilitates the evolution of social parasitism. We compiled all termitophilous rove beetle records to date and available information on termite colony size from the literature. Previous studies on social parasites mainly focused on the parasite species and thus often lacked the perspective of host social insects. This study fills the gap by revealing the characteristics of host species that foster social parasitism. <br>
 [Mizumoto et al., 2022 Evolution](https://doi.org/10.1111/evo.14457) 
 
 
@@ -62,6 +62,6 @@ During the long home quarantine due to the COVID-19 pandemic, I assembled body s
   content=content
   flip=true
 %}
-Nest construction in termites is diverse across species. One-piece nesting termites nest within a piece of wood on which they feed, and their colony life is completed within it. Multiple-piece nesting termites feed and nest in wood pieces. But, at the same time, they can expand across multiple wood items connected by networks of galleries. Separate-piece nesting termites build large nest structures separated from their food sources. We overviewed this difference, including the potential for one-piece nesters to build more complex structures. <br>
+Nest construction in termites is diverse across species. One-piece nesting termites nest within a piece of wood on which they feed, and their colony life is completed within it. Multiple-piece nesting termites feed and nest in wood pieces. They can also expand across multiple wood items connected by networks of galleries. Separate-piece nesting termites build large nest structures separated from their food sources. We overviewed these differences, including the potential for one-piece nesters to build more complex structures. <br>
 [Mizumoto and Bourguignon, 2020 Ecol Evol](https://doi.org/10.1002/ece3.6381) 
 
