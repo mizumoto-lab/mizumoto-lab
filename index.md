@@ -6,10 +6,10 @@
 {% include alert.html type="info" content="**We are recruiting two PhD students for Fall 2027.** One position focuses on field and experimental research on termite collective nest building; the other focuses on comparative data analysis and termite social evolution. [View both positions](recruitment/)." %}
 
 # Termite x Behavior x Evolution
-Mizumoto Lab is interested in the evolution of termite collective behavior. What are the rules for behavioral coordination? How did they originate in the history of life? We answer these questions by integrating field work, behavioral observations, computational tracking, and phylogenetic comparative analysis. See our [Publications](publication) and [Research](research) for details.
+Mizumoto Lab is interested in the evolution of termite collective behavior. What are the rules for behavioral coordination? How did they originate in the history of life? We answer these questions by integrating fieldwork, behavioral observations, computational tracking, and phylogenetic comparative analysis. See our [Publications](publication) and [Research](research) for details.
 
 {% capture content %} 
-We intentionally restricted our research (mainly) to termites for inspiration. Do you have a research question? We can answer it with termites! 
+We intentionally focus our research mainly on termites, using their diversity as a source of inspiration. Do you have a research question? We can answer it with termites! 
 {% endcapture %} 
 {%
   include feature.html
@@ -21,7 +21,7 @@ We intentionally restricted our research (mainly) to termites for inspiration. D
 %}
 
 {% capture content %} 
-Videos of insect behaviors have much information. We especially try to understand how termites coordinate their actions for collective behavior.
+Videos of insect behavior contain a wealth of information. We especially try to understand how termites coordinate their actions for collective behavior.
 {% endcapture %} 
 {%
   include feature.html
@@ -32,7 +32,7 @@ Videos of insect behaviors have much information. We especially try to understan
 %}
 
 {% capture content %} 
-There are > 3,000 species of termites in the world, showing a great diversity of collective behavior. Comparison among them allows us to infer the history of evolution. We also love cool fossils.
+There are more than 3,000 species of termites in the world, showing a great diversity of collective behavior. Comparisons among them allow us to infer the history of evolution. We also love cool fossils.
 {% endcapture %} 
 {%
   include feature.html
