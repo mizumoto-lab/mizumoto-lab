@@ -1,16 +1,24 @@
+# Mizumoto Lab Website
 
-# nobuaki-mzmt's Website
+Visit **[mizumoto-lab.com](https://mizumoto-lab.com)**.
 
-Visit **[mizumoto-lab.com](https://mizumoto-lab.com)** 🚀
+_Built with the [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)._
 
-_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+## Editing
 
-## Note
+- Publications: edit `_data/sources.yaml`
+- Members: edit files in `_members/`
 
-Publication => edit: /_data/sources.yaml
-Member => edit: [text](_members)
+## Local preview
 
-## preview
+From Git Bash:
 
-powershell
+```bash
+./.docker/run.sh
+```
+
+From PowerShell:
+
+```powershell
 bash ./.docker/run.sh
+```
