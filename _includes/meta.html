@@ -24,15 +24,15 @@
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
-{% assign url = site.location %}
+{% assign url = page.url | absolute_url %}
 
 {% assign png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign icon = png | default: jpg | relative_url %}
+{% assign icon = png | default: jpg | absolute_url %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | relative_url %}
+{% assign share = jpg | default: png | absolute_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -44,12 +44,13 @@
 <title>{{ fulltitle }}</title>
 
 <link rel="icon" href="{{ icon }}">
+<link rel="canonical" href="{{ url }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
 
 <meta property="og:title" content="{{ title }}">
-<meta property="og:site_title" content="{{ site.title }}">
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
@@ -57,18 +58,8 @@
 
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:url" content="{{ url }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ share }}">
-
-<meta name=”twitter:card” content=”summary_large_image” />
-<meta name=”twitter:text:title” content=”Mizumoto Lab” />
-
-<meta name=”twitter:site” content=”@nobuakiMZMT” />
-<meta name=”twitter:domain” content=”mizumoto-lab.com/” />
-<meta name=”twitter:title” content=”Mizumoto Lab” />
-<meta name=”twitter:description” content=”Mizumoto Lab at Auburn University” />
-<meta name=”twitter:image” content="{{ share }}" />
 
 {% if page.author %}
   <meta name="author" content="{{ page.author }}">
@@ -86,7 +77,7 @@
     "@context": "https://schema.org",
     {% if page.author %}
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "{{ title }}" },
+      "author": { "@type": "Person", "name": "{{ page.author }}" },
       "datePublished": "{{ published }}",
       "dateModified": "{{ updated }}",
     {% else %}
