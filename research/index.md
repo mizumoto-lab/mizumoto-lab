@@ -91,7 +91,7 @@ Current research examines worker evolution, transitions in nesting and foraging,
 ## Termite biodiversity in Alabama
 
 {% capture content %}
-  {% include figure.html image="images/distribution.png" alt="Map showing records of Formosan subterranean termites across Alabama" caption="Distribution of Formosan Subterrenean Termites\n in Alabama. [Link](https://ecoevorxiv.org/repository/view/13522/)" width="250px" %}
+  {% include figure.html image="images/pub/Hu-Mizumoto-2026-1.png" alt="Map showing records of Formosan subterranean termites across Alabama" caption="Distribution of Formosan Subterrenean Termites in Alabama. [Link](https://link.springer.com/article/10.1007/s11252-026-02107-z)" width="400px" %}
 {% endcapture %}
 {%
   include float.html
