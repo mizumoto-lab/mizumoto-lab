@@ -16,7 +16,7 @@ phd:
 
 master:
   icon: fa-solid fa-graduation-cap
-  description: Master Student
+  description: Master's Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
@@ -140,8 +140,8 @@ linkedin:
 
 researchgate:
   icon: fa-brands fa-researchgate
-  text: Research Gate
-  tooltip: Research Gate
+  text: ResearchGate
+  tooltip: ResearchGate
   link: https://www.researchgate.net/profile/$VALUE
 
 
