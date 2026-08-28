@@ -6,6 +6,7 @@
 {% else %}
   {% assign title = nil %}
 {% endif %}
+{% assign meta_title = title | default: site.title %}
 
 {% assign fulltitle = "" | split: "," %}
 {% if title %}
@@ -46,17 +47,17 @@
 <link rel="icon" href="{{ icon }}">
 <link rel="canonical" href="{{ url }}">
 
-<meta name="title" content="{{ title }}">
+<meta name="title" content="{{ meta_title }}">
 <meta name="description" content="{{ description }}">
 
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ meta_title }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
 <meta property="og:locale" content="en_US">
 
-<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:title" content="{{ meta_title }}">
 <meta name="twitter:description" content="{{ description }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ share }}">
@@ -83,9 +84,9 @@
     {% else %}
       "@type": "WebSite",
     {% endif %}
-    "name": "{{ title }}",
+    "name": "{{ meta_title }}",
     "description": "{{ description }}",
-    "headline": "{{ title }}",
+    "headline": "{{ meta_title }}",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
