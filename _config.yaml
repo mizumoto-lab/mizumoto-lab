@@ -1,7 +1,9 @@
 # site properties and page defaults
 title: Mizumoto Lab
 subtitle: Auburn University
-description: Mizumoto lab at Auburn University. We study termites, behavior, evolution. # Default description that will show under search engine results.
+description: Research on termite collective behavior, social evolution, nest construction, and biodiversity. # Default description that will show under search engine results.
+url: https://mizumoto-lab.com
+baseurl: ""
 header: images/background.jpg
 footer: images/background.jpg
 
