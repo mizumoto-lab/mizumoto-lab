@@ -27,11 +27,23 @@ Auburn, AL 36849-5624
 
 ## Your sample contributes to the map
 
+
+{% capture content %}
+  {% include figure.html image="images/pub/Hu-Mizumoto-2026-1.png" alt="Map showing records of Formosan subterranean termites across Alabama" caption="Distribution of Formosan Subterrenean Termites in Alabama. [Link](https://ecoevorxiv.org/repository/view/13522/)" width="350px" %}
+{% endcapture %}
+{%
+  include float.html
+  content=content
+  flip=true
+%}
+
 Eligible identified samples may be added to the [Alabama Termite Map](https://mizumoto-lab.github.io/AL-termite-map/). Exact specimen locations are **not displayed publicly**. Before publication, coordinates are generalized by up to **300 m** to protect the privacy of collection locations.
 
 The public map also brings together published records and other biodiversity data to document native termite diversity and monitor invasive species in Alabama.
 
-## Related programs
+## Links
+
+This effort is partner with [Auburn Plant Diagnostic Lab](https://www.aces.edu/blog/topics/farming/plant-diagnostic-lab-services/) and the [Auburn University Museum of Natural History (AUMNH)](https://aumnh.auburn.edu/)
 
 This effort was inspired by the [UF/IFAS termite distribution and identification program](https://flrec.ifas.ufl.edu/termites-in-florida/termite-distribution/). We also participate in the [North American Termite Survey (NATS)](https://termitesurvey.org/), a collaborative effort to improve knowledge of termite distributions in North America.
 

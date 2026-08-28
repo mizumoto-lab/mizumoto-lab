@@ -9,3 +9,8 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 
 Publication => edit: /_data/sources.yaml
 Member => edit: [text](_members)
+
+## preview
+
+powershell
+bash ./.docker/run.sh

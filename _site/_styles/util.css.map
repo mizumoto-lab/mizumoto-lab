@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["util.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;;;AAGF;EACE","sourcesContent":[".left {\n  text-align: left;\n}\n\n.center {\n  text-align: center;\n}\n\n.right {\n  text-align: right;\n}\n"],"file":"util.css"}
+{"version":3,"sourceRoot":"","sources":["util.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;;;AAGF;EACE","sourcesContent":[".left {\r\n  text-align: left;\r\n}\r\n\r\n.center {\r\n  text-align: center;\r\n}\r\n\r\n.right {\r\n  text-align: right;\r\n}\r\n"],"file":"util.css"}
