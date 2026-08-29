@@ -70,7 +70,3 @@ include:
 exclude:
   - README.md
   - LICENSE.md
-  - CITATION.cff
-  - templates
-  - ads
-  - files/job_ad_NM_2026.pdf
