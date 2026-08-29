@@ -1,0 +1,54 @@
+name: normalize-publication-data-once
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/normalize-publication-data-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Normalize publication metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          sources = Path("_data/sources.yaml")
+          text = sources.read_text(encoding="utf-8")
+          text = text.replace("\n  button:\n", "\n  buttons:\n")
+          text = text.replace("text: ScinceDaily", "text: ScienceDaily")
+          sources.write_text(text, encoding="utf-8")
+
+          citation = Path("_includes/citation.html")
+          text = citation.read_text(encoding="utf-8")
+          text = text.replace(
+              "{% assign citation_buttons = citation.buttons | default: citation.button %}",
+              "{% assign citation_buttons = citation.buttons %}",
+          )
+          text = text.replace(
+              "            {% assign button_text = button.text | replace: \"ScinceDaily\", \"ScienceDaily\" %}\n",
+              "",
+          )
+          text = text.replace("              text=button_text", "              text=button.text")
+          citation.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Remove one-time workflow
+        run: git rm .github/workflows/normalize-publication-data-once.yml
+
+      - name: Commit normalization
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/sources.yaml _includes/citation.html
+          git commit -m "Normalize publication metadata schema"
+          git push
