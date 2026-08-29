@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["link.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE","sourcesContent":["a {\r\n  color: var(--primary);\r\n  transition-property: color;\r\n  overflow-wrap: break-word;\r\n}\r\n\r\na:hover {\r\n  color: var(--text);\r\n}\r\n\r\na:not([href]) {\r\n  color: var(--text);\r\n}\r\n"],"file":"link.css"}

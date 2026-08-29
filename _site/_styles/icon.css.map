@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["icon.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA","sourcesContent":[".icon {\r\n  font-size: 1em;\r\n}\r\n\r\nspan.icon {\r\n  line-height: 1;\r\n}\r\n\r\nspan.icon > svg {\r\n  position: relative;\r\n  top: 0.1em;\r\n  height: 1em;\r\n}\r\n"],"file":"icon.css"}
