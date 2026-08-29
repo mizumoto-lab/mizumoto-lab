@@ -80,16 +80,15 @@
         </div>
       {% endif %}
 
-      {% assign citation_buttons = citation.buttons | default: citation.button %}
+      {% assign citation_buttons = citation.buttons %}
       {% if citation_buttons.size > 0 %}
         <div class="citation-buttons">
           {% for button in citation_buttons %}
-            {% assign button_text = button.text | replace: "ScinceDaily", "ScienceDaily" %}
             {%
               include button.html
               type=button.type
               icon=button.icon
-              text=button_text
+              text=button.text
               link=button.link
               style="bare"
             %}

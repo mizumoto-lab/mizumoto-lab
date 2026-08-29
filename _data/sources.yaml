@@ -19,7 +19,7 @@
 - id: 10.1007/s11252-026-02107-z
   type: paper
   image: images/pub/Hu-Mizumoto-2026.png
-  button:
+  buttons:
     - type: preprint
       text: EcoEvoRxiv
       link: https://doi.org/10.32942/X21H4M
@@ -31,7 +31,7 @@
 - id: 10.1002/oik.12492
   type: paper
   image: images/pub/Mizumoto-etal-2026-OIKOS.JPG
-  button:
+  buttons:
     - type: preprint
       text: EcoEvoRxiv
       link: https://doi.org/10.32942/X2HT1X
@@ -42,7 +42,7 @@
 - id: 10.7554/eLife.110015.1
   type: paper
   image: https://iiif.elifesciences.org/epp/110015%2Fv1%2Fcontent%2F677458v2_fig4.tif/full/max/0/default.jpg
-  button:
+  buttons:
     - type: preprint
       text: bioRxiv
       link: https://doi.org/10.1101/2025.09.20.677458
@@ -56,7 +56,7 @@
 - id: 10.1098/rspb.2025.2738
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683896/F1.large.jpg
-  button:
+  buttons:
     - type: preprint
       text: bioRxiv
       link: https://doi.org/10.1101/2025.10.22.683896
@@ -65,7 +65,7 @@
 - id: 10.1007/s10682-026-10386-3
   type: paper
   image: https://assets-eu.researchsquare.com/files/rs-7300390/v1/f4f2f954f9cd9dc984b40ea7.png?maxDims=1200x1200
-  button:
+  buttons:
     - type: preprint
       text: researchsquare
       link: https://doi.org/10.21203/rs.3.rs-7300390/v1
@@ -74,7 +74,7 @@
 - id: 10.1007/s10340-026-02023-3
   type: paper
   image: https://assets-eu.researchsquare.com/files/rs-6837416/v1/16584d78a2e2c448157be1ee.png?maxDims=1200x1200
-  button:
+  buttons:
     - type: preprint
       text: researchsquare
       link: https://doi.org/10.21203/rs.3.rs-6837416/v1
@@ -94,7 +94,7 @@
 - id: 10.1007/s10164-025-00857-5
   type: paper
   image: https://www.biorxiv.org/content/biorxiv/early/2025/05/08/2025.05.02.651862/F1.large.jpg?width=800&height=600&carousel=1
-  button:
+  buttons:
     - type: preprint
       text: bioRxiv
       link: https://doi.org/10.1101/2025.05.02.651862
@@ -105,7 +105,7 @@
 - id: 10.1098/rsif.2025.0487
   type: paper
   image: images/pub/m_rsif.2025.22.issue-232.cover.gif
-  button:
+  buttons:
     - type: preprint
       text: bioRxiv
       link: https://doi.org/10.1101/2025.02.13.638054
@@ -308,7 +308,7 @@
         text: Phys.org
         link: https://phys.org/news/2022-01-overturns-popular-theory-evolution-termite.html
       - type: journal
-        text: ScinceDaily
+        text: ScienceDaily
         link: https://www.sciencedaily.com/releases/2022/01/220114115651.htm
       - type: journal
         text: ScienceMag
