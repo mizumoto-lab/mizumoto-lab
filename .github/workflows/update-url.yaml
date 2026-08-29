@@ -2,13 +2,10 @@ name: update-url
 run-name: update site after url change
 
 on:
-  # run when called from another workflow
   workflow_call:
     outputs:
       changed:
         value: ${{ jobs.update-url.outputs.changed }}
-
-  # run if user manually requests it
   workflow_dispatch:
 
 permissions:
@@ -19,22 +16,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # for debugging
-      - name: Print contexts
-        uses: crazy-max/ghaction-dump-context@v1
-
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v6
         with:
           enablement: false
 
       - name: Checkout branch contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
-      # update link to site in readme
       - name: Update readme
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           script: |
             const { readFileSync, writeFileSync } = require("fs");
@@ -53,14 +45,16 @@ jobs:
 
       - name: Check if readme changed
         id: changed
-        uses: tj-actions/verify-changed-files@v13
-        with:
-          files: |
-            README.md
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit changed files
         if: steps.changed.outputs.files_changed == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update url"
 
