@@ -2,13 +2,9 @@ name: build-site
 run-name: build live site
 
 on:
-  # run when called from another workflow
   workflow_call:
-
-  # run if user manually requests it
   workflow_dispatch:
 
-# variables
 env:
   PREVIEWS_FOLDER: preview
 
@@ -20,12 +16,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # for debugging
-      - name: Print contexts
-        uses: crazy-max/ghaction-dump-context@v1
-
       - name: Checkout branch contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
@@ -35,7 +27,7 @@ jobs:
 
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v6
         with:
           enablement: false
 
