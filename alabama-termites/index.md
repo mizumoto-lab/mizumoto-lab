@@ -36,6 +36,7 @@ Attention: Meredith Shrader
 ALFA Agricultural Services and Research Bldg.  
 961 S Donahue Dr  
 Auburn, AL 36849-5624
+See also [Auburn Plant Diagnostic Lab](https://www.aces.edu/blog/topics/farming/plant-diagnostic-lab-services/)
 
 ## Your sample contributes to a statewide picture
 
