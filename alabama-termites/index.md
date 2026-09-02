@@ -40,7 +40,7 @@ Pest management professionals and other partners who regularly contribute record
 AG STEM, Room 3203  
 Auburn, AL 36849
 
-Every submitted specimen will still be identified at no cost, and results will be returned by email. For multiple specimens, assign each sample a unique label and include a corresponding printed or electronic list with the required information below.
+Every submitted specimen will still be identified at no cost, and results will be returned by email. For multiple specimens, assign each sample a unique label and include a corresponding sample list in the package with the required information below.
 
 ### Sample and information requirements
 
