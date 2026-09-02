@@ -7,45 +7,57 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-map-location-dot" %} Alabama Termite Identification & Mapping
 
-**Found termites in Alabama?** Send us a sample for species identification and help document termite distributions across the state.
+**Found termites in Alabama?** We provide **free termite identification for samples collected in Alabama**. Your sample can also help document termite distributions across the state.
 
-The Mizumoto Lab at Auburn University, in collaboration with the Auburn Plant Diagnostic Lab, identifies submitted termite samples and uses verified records to improve our understanding of termite diversity and distributions across Alabama.
+The Mizumoto Lab at Auburn University, in collaboration with the Auburn Plant Diagnostic Lab, identifies submitted termite samples at no cost and uses verified records to improve our understanding of termite diversity and distributions across Alabama.
 
 {% include button.html text="Explore the Alabama Termite Map" icon="fa-solid fa-map" link="https://mizumoto-lab.github.io/AL-termite-map/" %}
 
-## Send us a termite sample
+## Free termite identification
 
-{% capture content %}
-{% include figure.html image="images/termite_lifecycle.png" alt="Termite life cycle showing swarming, pair formation, colony foundation, mature colony, and structural damage associated with pest species" caption="A simplified termite colony life cycle (from [here](https://link.springer.com/article/10.1007/s10340-026-02023-3))." width="400px" %}
-{% endcapture %}
-{%
-  include float.html
-  content=content
-  flip=true
-%}
+Termite identification is provided **at no cost**. Choose the submission route that best fits your situation.
+
+### 1. Identification request
+
+This route is appropriate for homeowners, Extension personnel, pest management professionals, and other occasional submitters.
+
+1. Open the [Plant Diagnostic Lab Forms page](https://www.aces.edu/blog/topics/counties-statewide/plant-diagnostic-lab-forms/) and complete the **Insect Identification Record Form**.
+2. Write your **email address clearly on the form**, because the current form does not have a dedicated email field and termite identification results are provided by email.
+3. Include the completed form with the termite sample and mail it to:
+
+**Auburn Plant Diagnostic Lab**  
+Attention: Meredith Shrader  
+ALFA Agricultural Services and Research Bldg.  
+961 S. Donahue Dr.  
+Auburn, AL 36849-5624
+
+### 2. Repeated or bulk record submissions
+
+Pest management professionals and other partners who regularly contribute records may mail samples directly to the Mizumoto Lab instead of completing a separate Plant Diagnostic Lab form for every specimen.
+
+**Mizumoto Lab**  
+305 W. Samford Ave.  
+AG STEM, Room 3203  
+Auburn, AL 36849
+
+Every submitted specimen will still be identified at no cost, and results will be returned by email. For multiple specimens, assign each sample a unique label and include a corresponding printed or electronic list with the required information below.
+
+### Sample and information requirements
 
 Collect several termites. Please include **soldiers or winged termites (alates/swarmers)**, because these are essential for reliable species identification.
 
 Place the termites in a **small, sturdy, tightly sealed container**. Do not mail loose termites in an envelope.
 
-### Information required for identification
+For each sample, provide:
 
-Please include all of the following with the sample:
-
+- **Unique sample label**
 - **Collector or submitter name**
 - **Email address**
 - **Collection date**
 - **Exact collection location** (street address or coordinates)
 - Your tentative identification, if you have one
 
-We can provide a species identification only when we receive a physical termite sample with the required contact and collection information. We do not confirm identifications by phone. Identification results are provided by email so that both the submitter and our team have a clear record of the result.
-
-Mail to **Auburn Plant Diagnostic Lab**  
-Attention: Meredith Shrader  
-ALFA Agricultural Services and Research Bldg.  
-961 S Donahue Dr  
-Auburn, AL 36849-5624
-See also [Auburn Plant Diagnostic Lab](https://www.aces.edu/blog/topics/farming/plant-diagnostic-lab-services/)
+We can provide an identification only when we receive a physical termite sample with the required contact and collection information. We do not confirm identifications by phone. Results are provided by email so that both the submitter and our team have a clear record.
 
 ## Your sample contributes to a statewide picture
 
