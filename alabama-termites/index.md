@@ -9,9 +9,21 @@ nav:
 
 **Found termites in Alabama?** We provide **free termite identification for samples collected in Alabama**. Your sample can also help document termite distributions across the state.
 
+{% capture content %}
+{% include figure.html image="images/termite_lifecycle.png" alt="Termite life cycle showing swarming, pair formation, colony foundation, mature colony, and structural damage associated with pest species" caption="A simplified termite colony life cycle (from [here](https://link.springer.com/article/10.1007/s10340-026-02023-3))." width="400px" %}
+{% endcapture %}
+{%
+  include float.html
+  content=content
+  flip=true
+%}
+
 The Mizumoto Lab at Auburn University, in collaboration with the Auburn Plant Diagnostic Lab, identifies submitted termite samples at no cost and uses verified records to improve our understanding of termite diversity and distributions across Alabama.
 
 {% include button.html text="Explore the Alabama Termite Map" icon="fa-solid fa-map" link="https://mizumoto-lab.github.io/AL-termite-map/" %}
+
+
+Termite colonies begin when winged reproductives disperse, find mates, and establish new colonies. Different termite species differ in their distributions, biology, and importance as structural pests, so knowing the species helps us understand both termite diversity and termite threats in Alabama.
 
 ## Free termite identification
 
@@ -58,12 +70,6 @@ For each sample, provide:
 - Your tentative identification, if you have one
 
 We can provide an identification only when we receive a physical termite sample with the required contact and collection information. We do not confirm identifications by phone. Results are provided by email so that both the submitter and our team have a clear record.
-
-## Why identify termite species?
-
-Termite colonies begin when winged reproductives disperse, find mates, and establish new colonies. Different termite species differ in their distributions, biology, and importance as structural pests, so knowing the species helps us understand both termite diversity and termite threats in Alabama.
-
-{% include figure.html image="images/termite_lifecycle.png" alt="Termite life cycle showing swarming, pair formation, colony foundation, mature colony, and structural damage associated with pest species" caption="A simplified termite colony life cycle (from [here](https://link.springer.com/article/10.1007/s10340-026-02023-3))." width="850px" %}
 
 ## Your sample contributes to a statewide picture
 

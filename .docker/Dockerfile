@@ -11,10 +11,13 @@ COPY Gemfile _cite/requirements.txt ./
 RUN bundle install
 
 # install python
-RUN apt update && apt install -y python3 python3-pip
+RUN apt update && apt install -y python3 python3-pip python3-venv
 
-# install python packages
-RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt
+RUN python3 -m venv /opt/venv
+
+ENV PATH="/opt/venv/bin:$PATH"
+
+RUN pip install --no-cache-dir --upgrade --requirement requirements.txt
 
 # install python package for listening for file changes
 RUN pip install "watchdog[watchmedo]==3.0.0"
