@@ -33,14 +33,14 @@ Auburn, AL 36849-5624
 
 ### 2. Repeated or bulk record submissions
 
-Pest management professionals and other partners who regularly contribute records may mail samples directly to the Mizumoto Lab instead of completing a separate Plant Diagnostic Lab form for every specimen.
+For repeated or bulk submissions, you may mail samples directly to the Mizumoto Lab. No specific submission form or spreadsheet is required.
 
 **Mizumoto Lab**  
 305 W. Samford Ave.  
 AG STEM, Room 3203  
 Auburn, AL 36849
 
-Every submitted specimen will still be identified at no cost, and results will be returned by email. For multiple specimens, assign each sample a unique label and include a corresponding sample list in the package with the required information below.
+Every submitted specimen will still be identified at no cost, and results will be returned by email. For multiple samples, please give each container a unique label and provide the collection information for each sample.
 
 ### Sample and information requirements
 
@@ -74,7 +74,7 @@ Eligible identified samples may be added to the [Alabama Termite Map](https://mi
 
 The public map brings together verified specimens, published records, and other biodiversity data to document native termite diversity and monitor invasive species in Alabama. It is intended for homeowners, pest management professionals, Extension personnel, and researchers who want to see which termite species have been documented in different parts of the state.
 
-Some counties are shaded because Formosan subterranean termite has been documented there in published historical records. These are **county-level records**, not specimen locations. A shaded county may therefore appear even when no preserved AU specimen point is currently available from that county. We especially welcome new submissions that can improve specimen coverage in these areas.
+Some counties are shaded because the Formosan subterranean termite has been documented there in published historical records. These are **county-level records**, not specimen locations. A shaded county may therefore appear even when no preserved AU specimen point is currently available from that county. We especially welcome new submissions that can improve specimen coverage in these areas.
 
 A mapped record shows that a termite species was documented in an area at some point. It does not mean that a particular property currently has an active infestation.
 
