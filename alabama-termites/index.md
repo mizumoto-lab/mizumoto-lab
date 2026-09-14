@@ -59,6 +59,12 @@ For each sample, provide:
 
 We can provide an identification only when we receive a physical termite sample with the required contact and collection information. We do not confirm identifications by phone. Results are provided by email so that both the submitter and our team have a clear record.
 
+## Why identify termite species?
+
+Termite colonies begin when winged reproductives disperse, find mates, and establish new colonies. Different termite species differ in their distributions, biology, and importance as structural pests, so knowing the species helps us understand both termite diversity and termite threats in Alabama.
+
+{% include figure.html image="images/termite_lifecycle.png" alt="Termite life cycle showing swarming, pair formation, colony foundation, mature colony, and structural damage associated with pest species" caption="A simplified termite colony life cycle (from [here](https://link.springer.com/article/10.1007/s10340-026-02023-3))." width="850px" %}
+
 ## Your sample contributes to a statewide picture
 
 {% capture content %}
