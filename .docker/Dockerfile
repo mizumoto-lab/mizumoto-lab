@@ -5,7 +5,7 @@ FROM ruby:3.3
 WORKDIR /usr/src/app
 
 # pull in ruby (jekyll) and python (cite process) package info
-COPY Gemfile _cite/requirements.txt ./
+COPY Gemfile Gemfile.lock _cite/requirements.txt ./
 
 # install ruby packages
 RUN bundle install
