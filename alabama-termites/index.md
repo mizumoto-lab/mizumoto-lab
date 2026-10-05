@@ -62,8 +62,7 @@ Place the termites in a **small, sturdy, tightly sealed container**. Do not mail
 
 For each sample, provide:
 
-- **Unique sample label**
-- **Collector or submitter name**
+- **Collector and/or submitter name**
 - **Email address**
 - **Collection date**
 - **Exact collection location** (street address or coordinates)
