@@ -20,7 +20,7 @@ Applicants may apply to either or both positions. See the [Fall 2027 PhD recruit
 
 ## Postdoctoral researcher
 
-An **NSF-funded postdoctoral position** is available in the Mizumoto Lab, with a flexible start date in **2027 or later**.
+An **NSF-funded postdoctoral position in termite behavior and evolution** is available in the Mizumoto Lab, with an anticipated start in **2027 and flexibility in timing**. The position is expected to be available for **up to three years**.
 
 The project investigates **how collective nest-building behavior evolved in termites** through three complementary approaches:
 
@@ -30,7 +30,16 @@ The project investigates **how collective nest-building behavior evolved in term
 
 I am interested in hearing from researchers from **either computational or biological backgrounds**. Relevant expertise may include computational modeling, collective behavior, quantitative behavioral analysis, social insects, comparative biology, or behavioral evolution. Experience across all of these areas is not expected, and the research emphasis can be shaped by the candidate's background and interests.
 
-The start date is flexible, including later in 2027 or beyond. There is currently no fixed application deadline. Prospective candidates are encouraged to contact Dr. Mizumoto with a **CV and a brief description of their research background, interests, and potential fit with the project**.
+Applicants should have a **PhD by the start date**. Experience with termites or social insects is not required.
+
+To apply, email Dr. Nobuaki Mizumoto at [nzm0095@auburn.edu](mailto:nzm0095@auburn.edu) with:
+
+- A CV including links to papers and/or preprints
+- A brief statement describing your research goals and interests, relevant experience, and interest in the position
+
+The first review of applications will begin on **December 2, 2026**. Applications received after this date will continue to be considered until the position is filled. The selected candidate will also be required to complete Auburn University's formal application and hiring process.
+
+**[Download the postdoc advertisement (PDF)]({{ "/files/Postdoc_Ad_TermiteBehavior_Evolution_Fall2027.pdf" | relative_url }})** for the full position description and application instructions.
 
 ## Undergraduate researchers
 
