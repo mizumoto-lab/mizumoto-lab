@@ -3,7 +3,7 @@
 ---
 
 <!-- Recruitment announcements -->
-{% include alert.html type="info" content="**We are recruiting a postdoctoral researcher studying termite collective building evolution.** Join our NSF-funded project using computational approaches to study termite collective behavior and nest building. First review: **December 2, 2026**. [Download the postdoc advertisement (PDF)](files/Postdoc_Ad_TermiteBehavior_Evolution_Fall2027.pdf)." %}
+{% include alert.html type="info" content="**We are recruiting a postdoctoral researcher studying termite collective building evolution.** Join our NSF-funded project using computational approaches to study termite collective behavior and nest building. First review: **December 22, 2026**. [Download the postdoc advertisement (PDF)](files/Postdoc_Ad_TermiteBehavior_Evolution_Fall2027.pdf)." %}
 
 {% include alert.html type="info" content="**We are recruiting two PhD students for Fall 2027.** One position focuses on field and experimental research on termite collective nest building; the other focuses on comparative data analysis and termite social evolution. First review: **November 2, 2026**. [View both PhD positions](recruitment/)." %}
 
