@@ -1,8 +1,10 @@
 ---
-title: PhD Recruitment
+title: PhD Recruitment Archive
 ---
 
 # Two PhD positions in termite behavior and evolution
+
+{% include alert.html type="info" content="**Applications are closed.** This Fall 2027 recruitment announcement is retained for archival reference." %}
 
 The Mizumoto Lab at Auburn University is recruiting **two PhD students in Entomology** to begin in **Fall 2027 (August)**. Both students will join an NSF-funded project on termite collective behavior, nest construction, and social evolution while developing independent, student-led dissertation themes.
 
