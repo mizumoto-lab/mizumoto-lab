@@ -11,12 +11,7 @@ nav:
 # {% include icon.html icon="fa-regular fa-door-open" %} Join the Mizumoto Lab
 
 ## Graduate students
-We are recruiting **two PhD students in Entomology for Fall 2027**:
-
-- **Termite collective behavior and nest building:** fieldwork, behavioral experiments, and video analysis
-- **Termite social and nest evolution:** comparative data, phylogenetics, modeling, and simulation
-
-Applicants may apply to either or both positions. See the [Fall 2027 PhD recruitment page](../recruitment) for full descriptions and application instructions.
+Applications for the Fall 2027 PhD positions are now closed. See the [archived Fall 2027 PhD recruitment announcement](../recruitment/) for reference.
 
 ## Postdoctoral researcher
 
